@@ -33,10 +33,25 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
+import {ServerResponse} from '../data/ServerResponse';
+import axios from 'axios';
+import { USGSData } from '../data/usgsData';
 
 @Component
 export default class HelloWorld extends Vue {
   @Prop() private msg!: string;
+  name = "RiverData";
+  riverData!: USGSData;
+
+  mounted(){
+    axios.request<USGSData>({
+      url: 'https://waterservices.usgs.gov/nwis/iv/?format=json&sites=04201500&period=PT4H&siteStatus=all',
+      transformResponse: (r: ServerResponse) => r.data
+    }).then((response) => {
+      this.riverData = response;
+    })
+  }
+
 }
 </script>
 
