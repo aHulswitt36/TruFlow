@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <template v-if="loading">
+    <template v-if="!isLoaded">
       Loading...    
     </template>
     <template v-else>
@@ -28,16 +28,15 @@ export default class HelloWorld extends Vue {
   @Prop() private msg!: string;
   name = "RiverData"; 
   riverData!: USGSData;
-  loading: boolean = false;
+  isLoaded: boolean = false;
 
   async mounted(){
     await this.GetRiverData();
   }
 
   async GetRiverData(){
-    this.loading = true;
     this.riverData = await getById('04201500');
-    this.loading = false;
+    this.isLoaded = true;
   }
 }
 </script>
