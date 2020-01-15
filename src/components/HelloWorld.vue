@@ -1,13 +1,19 @@
 <template>
   <div class="hello">
-    <span>{{riverData.value.timeSeries[0].sourceInfo.siteName}}</span>
-    <ul>
-      <li :v-for="gaugeData in riverData.value.timeSeries">
-        <h2>{{ gaugeData.variable.variableName }}</h2>
-        <h4>{{ gaugeData.variable.variableDescription }}</h4>
-        <h4>Unit: {{gaugeData.variable.unit.unitCode}}</h4>
-      </li>
-    </ul>
+    <template v-if="loading">
+      Loading...    
+    </template>
+    <template v-else>
+      <span>{{riverData.value.timeSeries[0].sourceInfo.siteName}}</span>
+      <ul>
+        <li v-for="gaugeData in riverData.value.timeSeries" :key="gaugeData.name">
+          <h2>{{ gaugeData.variable.variableName }}</h2>
+          <h4>{{ gaugeData.variable.variableDescription }}</h4>
+          <h4>Unit: {{gaugeData.variable.unit.unitCode}}</h4>
+        </li>
+      </ul>
+    </template>
+    
   </div>
 </template>
 
@@ -22,9 +28,16 @@ export default class HelloWorld extends Vue {
   @Prop() private msg!: string;
   name = "RiverData"; 
   riverData!: USGSData;
+  loading: boolean = false;
 
-  async created(){
+  async mounted(){
+    await this.GetRiverData();
+  }
+
+  async GetRiverData(){
+    this.loading = true;
     this.riverData = await getById('04201500');
+    this.loading = false;
   }
 }
 </script>
