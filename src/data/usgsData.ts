@@ -9,7 +9,7 @@ export interface USGSValue{
 export interface TimeSeries{
     sourceInfo: SourceInfo,
     variable: Variable,
-    values: Values,
+    values: Array<Values>,
     name: string
 }
 
@@ -24,7 +24,8 @@ export interface Variable{
 }
 
 export interface Values{
-    values: Array<Value>
+    value: Array<Value>,
+    calculatedValue: string
 }
 
 export interface Unit{

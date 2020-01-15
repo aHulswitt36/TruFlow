@@ -7,9 +7,10 @@
       <span>{{riverData.value.timeSeries[0].sourceInfo.siteName}}</span>
       <ul>
         <li v-for="gaugeData in riverData.value.timeSeries" :key="gaugeData.name">
-          <h2>{{ gaugeData.variable.variableName }}</h2>
+          <h2 v-html="gaugeData.variable.variableName">{{ gaugeData.variable.variableName }}</h2>
           <h4>{{ gaugeData.variable.variableDescription }}</h4>
-          <h4>Unit: {{gaugeData.variable.unit.unitCode}}</h4>
+          <hr>
+          <h3>{{gaugeData.values[0].calculatedValue}}</h3>
         </li>
       </ul>
     </template>
@@ -36,6 +37,23 @@ export default class HelloWorld extends Vue {
 
   async GetRiverData(){
     this.riverData = await getById('04201500');
+    this.riverData.value.timeSeries.forEach(element => {
+      let values = element.values[0].value.sort((a, b) => {
+        return +new Date(b.dateTime) - +new Date(a.dateTime);
+      });
+      let value = element.values[0];
+
+      if(values[0].value > values[1].value)
+      {
+        value.calculatedValue = values[0].value + '↑';
+      }
+      else if(values[0].value === values[1].value){
+        value.calculatedValue = values[0].value + '-';
+      }
+      else{
+        value.calculatedValue = values[0].value + '↓';
+      }
+    });
     this.isLoaded = true;
   }
 }
