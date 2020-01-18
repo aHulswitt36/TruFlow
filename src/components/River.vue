@@ -25,32 +25,28 @@ import { getById } from '../services/apiClient';
 import { USGSData } from '../data/usgsData';
 
 @Component
-export default class HelloWorld extends Vue {
-  @Prop() private msg!: string;
-  name = "RiverData"; 
-  riverData!: USGSData;
-  isLoaded: boolean = false;
+export default class River extends Vue {
+  public name = 'RiverData';
+  public riverData!: USGSData;
+  public isLoaded: boolean = false;
 
-  async mounted(){
+  public async mounted() {
     await this.GetRiverData();
   }
 
-  async GetRiverData(){
+  private async GetRiverData() {
     this.riverData = await getById('04201500');
-    this.riverData.value.timeSeries.forEach(element => {
-      let values = element.values[0].value.sort((a, b) => {
+    this.riverData.value.timeSeries.forEach((element) => {
+      const values = element.values[0].value.sort((a, b) => {
         return +new Date(b.dateTime) - +new Date(a.dateTime);
       });
-      let value = element.values[0];
+      const value = element.values[0];
 
-      if(values[0].value > values[1].value)
-      {
+      if (values[0].value > values[1].value) {
         value.calculatedValue = values[0].value + '↑';
-      }
-      else if(values[0].value === values[1].value){
+      } else if (values[0].value === values[1].value) {
         value.calculatedValue = values[0].value + '-';
-      }
-      else{
+      } else {
         value.calculatedValue = values[0].value + '↓';
       }
     });
