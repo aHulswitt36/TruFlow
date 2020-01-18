@@ -1,6 +1,8 @@
 <template>
   <div class="home">
-    <River/>
+    <River riverId='04201500'/>
+    <River riverId='04208000'/>
+    <River riverId='04209000'/>
   </div>
 </template>
 

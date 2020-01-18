@@ -30,17 +30,21 @@ export default class River extends Vue {
   public riverData!: USGSData;
   public isLoaded: boolean = false;
 
+  @Prop() private riverId!: string;
+
   public async mounted() {
     await this.GetRiverData();
   }
 
   private async GetRiverData() {
-    this.riverData = await getById('04201500');
+    this.riverData = await getById(this.riverId);
     this.riverData.value.timeSeries.forEach((element) => {
       const values = element.values[0].value.sort((a, b) => {
         return +new Date(b.dateTime) - +new Date(a.dateTime);
       });
       const value = element.values[0];
+
+      element.variable.variableName = element.variable.variableName.split(',')[0];
 
       if (values[0].value > values[1].value) {
         value.calculatedValue = values[0].value + '↑';
