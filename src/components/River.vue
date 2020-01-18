@@ -7,8 +7,8 @@
       <span>{{riverData.value.timeSeries[0].sourceInfo.siteName}}</span>
       <ul>
         <li v-for="gaugeData in riverData.value.timeSeries" :key="gaugeData.name">
-          <h2 v-html="gaugeData.variable.variableName">{{ gaugeData.variable.variableName }}</h2>
-          <h4>{{ gaugeData.variable.variableDescription }}</h4>
+          <h4 v-html="gaugeData.variable.variableName">{{ gaugeData.variable.variableName }}</h4>
+          <h5>{{ gaugeData.variable.variableDescription }}</h5>
           <hr>
           <h3>{{gaugeData.values[0].calculatedValue}}</h3>
         </li>
