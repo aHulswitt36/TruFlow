@@ -1,17 +1,19 @@
 <template>
   <div class="home">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <River riverId='04201500'/>
+    <River riverId='04208000'/>
+    <River riverId='04209000'/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import River from '@/components/River.vue';
 
 export default {
   name: 'home',
   components: {
-    HelloWorld
-  }
-}
+    River,
+  },
+};
 </script>

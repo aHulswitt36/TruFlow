@@ -1,5 +1,5 @@
 import { USGSData } from './usgsData';
 
-export interface ServerResponse{
-    data: USGSData
+export interface ServerResponse {
+    data: USGSData;
 }
