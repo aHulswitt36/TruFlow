@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="river">
     <template v-if="!isLoaded">
       Loading...    
     </template>
@@ -34,6 +34,7 @@ export default class River extends Vue {
 
   public async mounted() {
     await this.GetRiverData();
+    this.isLoaded = true;
   }
 
   private async GetRiverData() {
@@ -42,8 +43,8 @@ export default class River extends Vue {
       const values = element.values[0].value.sort((a, b) => {
         return +new Date(b.dateTime) - +new Date(a.dateTime);
       });
+      if(values[0] === undefined) return;
       const value = element.values[0];
-
       element.variable.variableName = element.variable.variableName.split(',')[0];
 
       if (values[0].value > values[1].value) {
@@ -60,6 +61,13 @@ export default class River extends Vue {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.river {
+  display: inline-block;
+  max-width: 250px;
+  max-height: 250px;
+  border: 1px solid;
+  background-color: #5c5c5c;
+}
 h3 {
   margin: 40px 0 0;
 }
