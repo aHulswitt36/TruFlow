@@ -37,7 +37,12 @@ export default class HelloWorld extends Vue {
 
   async GetRiverData(){
     this.riverData = await getById('04201500');
-    this.riverData.value.timeSeries.forEach(element => {
+    this.CalculatedValue();
+    this.isLoaded = true;
+  }
+
+  CalculatedValue(){
+    return this.riverData.value.timeSeries.forEach(element => {
       let values = element.values[0].value.sort((a, b) => {
         return +new Date(b.dateTime) - +new Date(a.dateTime);
       });
@@ -54,7 +59,6 @@ export default class HelloWorld extends Vue {
         value.calculatedValue = values[0].value + '↓';
       }
     });
-    this.isLoaded = true;
   }
 }
 </script>
