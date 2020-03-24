@@ -8,7 +8,6 @@
       <ul>
         <li v-for="gaugeData in filteredRiverData" :key="gaugeData.name">
           <h4>{{ gaugeData.variable.unit.unitCode }}</h4>
-          <!-- <h5>{{ gaugeData.variable.unit.unitCode }}</h5> -->
           <hr>
           <h3>{{gaugeData.values[0].calculatedValue}}</h3>
         </li>
@@ -35,18 +34,10 @@ export default class River extends Vue {
   get filteredRiverData(){
     if(this.isLoaded){
       return this.riverData.value.timeSeries.filter(function(rd) {
-        if(rd.variable.variableDescription.includes("Temperature")){
-          return rd;
-        }
-        if(rd.variable.variableDescription.includes("Discharge")){
-          return rd;
-        }
-        if(rd.variable.variableDescription.includes("Gage")){
-          return rd;
-        }
-        if(rd.variable.variableDescription.includes("Turbidity")){
-          return rd;
-        }   
+        return rd.variable.variableDescription.includes("Temperature") ||
+              rd.variable.variableDescription.includes("Discharge") ||
+              rd.variable.variableDescription.includes("Gage") ||
+              rd.variable.variableDescription.includes("Turbidity");
       });
     }
     
