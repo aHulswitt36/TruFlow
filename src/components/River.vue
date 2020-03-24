@@ -4,11 +4,11 @@
       Loading...    
     </template>
     <template v-else>
-      <span>{{riverData.value.timeSeries[0].sourceInfo.siteName}}</span>
+      <span>{{filteredRiverData[0].sourceInfo.siteName}}</span>
       <ul>
-        <li v-for="gaugeData in riverData.value.timeSeries" :key="gaugeData.name">
-          <h4 v-html="gaugeData.variable.variableName">{{ gaugeData.variable.variableName }}</h4>
-          <h5>{{ gaugeData.variable.variableDescription }}</h5>
+        <li v-for="gaugeData in filteredRiverData" :key="gaugeData.name">
+          <h4>{{ gaugeData.variable.unit.unitCode }}</h4>
+          <!-- <h5>{{ gaugeData.variable.unit.unitCode }}</h5> -->
           <hr>
           <h3>{{gaugeData.values[0].calculatedValue}}</h3>
         </li>
@@ -31,6 +31,26 @@ export default class River extends Vue {
   public isLoaded: boolean = false;
 
   @Prop() private riverId!: string;
+
+  get filteredRiverData(){
+    if(this.isLoaded){
+      return this.riverData.value.timeSeries.filter(function(rd) {
+        if(rd.variable.variableDescription.includes("Temperature")){
+          return rd;
+        }
+        if(rd.variable.variableDescription.includes("Discharge")){
+          return rd;
+        }
+        if(rd.variable.variableDescription.includes("Gage")){
+          return rd;
+        }
+        if(rd.variable.variableDescription.includes("Turbidity")){
+          return rd;
+        }   
+      });
+    }
+    
+  }
 
   public async mounted() {
     await this.GetRiverData();
@@ -62,11 +82,13 @@ export default class River extends Vue {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .river {
-  display: inline-block;
-  max-width: 250px;
+  display: inline-block;  
+  max-width: 20em;
   max-height: 250px;
   border: 1px solid;
-  background-color: #5c5c5c;
+  box-shadow: 2px 2px 10px #5c5c5c;
+  padding: 25px;
+  margin: 10px;
 }
 h3 {
   margin: 40px 0 0;
