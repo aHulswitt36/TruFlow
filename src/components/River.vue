@@ -1,20 +1,20 @@
 <template>
-  <div class="river">
+  <router-link :to="{ name: 'details', params: {id: riverId}}" tag="div" class="river">
     <template v-if="!isLoaded">
       Loading...    
     </template>
     <template v-else>
-      <span>{{filteredRiverData[0].sourceInfo.siteName}}</span>
-      <ul>
-        <li v-for="gaugeData in filteredRiverData" :key="gaugeData.name">
-          <h4>{{ gaugeData.variable.unit.unitCode }}</h4>
-          <hr>
-          <h3>{{gaugeData.values[0].calculatedValue}}</h3>
-        </li>
-      </ul>
-    </template>
-    
-  </div>
+      
+        <span>{{filteredRiverData[0].sourceInfo.siteName}}</span>
+        <ul>
+          <li v-for="gaugeData in filteredRiverData" :key="gaugeData.name">
+            <h4>{{ gaugeData.variable.unit.unitCode }}</h4>
+            <hr>
+            <h3>{{gaugeData.values[0].calculatedValue}}</h3>
+          </li>
+        </ul>
+    </template>    
+  </router-link>
 </template>
 
 <script lang="ts">
@@ -80,6 +80,7 @@ export default class River extends Vue {
   box-shadow: 2px 2px 10px #5c5c5c;
   padding: 25px;
   margin: 10px;
+  cursor: pointer;
 }
 h3 {
   margin: 40px 0 0;
