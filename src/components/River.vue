@@ -19,7 +19,7 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
-import {ServerResponse} from '../data/ServerResponse';
+import {ServerResponse} from '../data/serverResponse';
 import { getById } from '../services/apiClient';
 import { USGSData } from '../data/usgsData';
 
