@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GZJ3A3sF9ywSPVK3bsyZAR/zUrbmKt/rAvp4AFj5NNgsdUb4WJ2MARcnQwgCBQFXf1Be2nsEQYpWEifOzqm4EA==",
+  "dgSpecHash": "rRw/KNP5l8ZobEbBX8+hgZiImKrflqWDUep+oYKn1/WJvZ5WVqUpnI5KSFlanrAParpZGch4yIJ7NpI+JdZGew==",
   "success": true,
-  "projectFilePath": "C:\\Sandbox\\truflow\\BlazorMaui\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\sandbox\\TruFlow\\BlazorMaui\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Sandbox\\truflow\\BlazorMaui\\Components\\Components.csproj": {}
+    "C:\\sandbox\\TruFlow\\BlazorMaui\\Components\\Components.csproj": {}
   },
   "projects": {
-    "C:\\Sandbox\\truflow\\BlazorMaui\\Components\\Components.csproj": {
+    "C:\\sandbox\\TruFlow\\BlazorMaui\\Components\\Components.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Sandbox\\truflow\\BlazorMaui\\Components\\Components.csproj",
+        "projectUniqueName": "C:\\sandbox\\TruFlow\\BlazorMaui\\Components\\Components.csproj",
         "projectName": "Components",
-        "projectPath": "C:\\Sandbox\\truflow\\BlazorMaui\\Components\\Components.csproj",
-        "packagesPath": "C:\\Users\\aarro\\.nuget\\packages\\",
-        "outputPath": "C:\\Sandbox\\truflow\\BlazorMaui\\Components\\obj\\",
+        "projectPath": "C:\\sandbox\\TruFlow\\BlazorMaui\\Components\\Components.csproj",
+        "packagesPath": "C:\\Users\\ahulswitt\\.nuget\\packages\\",
+        "outputPath": "C:\\sandbox\\TruFlow\\BlazorMaui\\Components\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\aarro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ahulswitt\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -27,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://embracepetinsurance.pkgs.visualstudio.com/4240c13b-ec89-4336-962e-6582d7843741/_packaging/epiNuget/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Sandbox\\truflow\\BlazorMaui\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Sandbox\\truflow\\BlazorMaui\\Infrastructure\\Infrastructure.csproj"
+              "C:\\sandbox\\TruFlow\\BlazorMaui\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\sandbox\\TruFlow\\BlazorMaui\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -52,6 +52,10 @@
             "Microsoft.AspNetCore.Components.Web": {
               "target": "Package",
               "version": "[6.0.0-preview.4.21253.5, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[6.0.0-preview.5.21301.5, )"
             }
           },
           "imports": [
@@ -73,21 +77,20 @@
         }
       }
     },
-    "C:\\Sandbox\\truflow\\BlazorMaui\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\sandbox\\TruFlow\\BlazorMaui\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Sandbox\\truflow\\BlazorMaui\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\sandbox\\TruFlow\\BlazorMaui\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Sandbox\\truflow\\BlazorMaui\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\aarro\\.nuget\\packages\\",
-        "outputPath": "C:\\Sandbox\\truflow\\BlazorMaui\\Infrastructure\\obj\\",
+        "projectPath": "C:\\sandbox\\TruFlow\\BlazorMaui\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\ahulswitt\\.nuget\\packages\\",
+        "outputPath": "C:\\sandbox\\TruFlow\\BlazorMaui\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\aarro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ahulswitt\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -96,7 +99,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://embracepetinsurance.pkgs.visualstudio.com/4240c13b-ec89-4336-962e-6582d7843741/_packaging/epiNuget/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {

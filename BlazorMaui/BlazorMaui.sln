@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blazor-web", "blazor-web\blazor-web.csproj", "{A632BDC0-015F-4816-A437-3770361C64D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "blazor-web", "blazor-web\blazor-web.csproj", "{A632BDC0-015F-4816-A437-3770361C64D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Components", "Components\Components.csproj", "{EF0BAC65-C0F6-462B-AC0B-EB1446C615FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Components", "Components\Components.csproj", "{EF0BAC65-C0F6-462B-AC0B-EB1446C615FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{13C678F2-21BD-4619-ADC0-C3B8E451942D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{13C678F2-21BD-4619-ADC0-C3B8E451942D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorClassLibrary1", "RazorClassLibrary1\RazorClassLibrary1.csproj", "{03183D42-9397-47B5-B7E9-915AE798F21C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A632BDC0-015F-4816-A437-3770361C64D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -58,5 +57,23 @@ Global
 		{13C678F2-21BD-4619-ADC0-C3B8E451942D}.Release|x64.Build.0 = Release|Any CPU
 		{13C678F2-21BD-4619-ADC0-C3B8E451942D}.Release|x86.ActiveCfg = Release|Any CPU
 		{13C678F2-21BD-4619-ADC0-C3B8E451942D}.Release|x86.Build.0 = Release|Any CPU
+		{03183D42-9397-47B5-B7E9-915AE798F21C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03183D42-9397-47B5-B7E9-915AE798F21C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03183D42-9397-47B5-B7E9-915AE798F21C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{03183D42-9397-47B5-B7E9-915AE798F21C}.Debug|x64.Build.0 = Debug|Any CPU
+		{03183D42-9397-47B5-B7E9-915AE798F21C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{03183D42-9397-47B5-B7E9-915AE798F21C}.Debug|x86.Build.0 = Debug|Any CPU
+		{03183D42-9397-47B5-B7E9-915AE798F21C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03183D42-9397-47B5-B7E9-915AE798F21C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03183D42-9397-47B5-B7E9-915AE798F21C}.Release|x64.ActiveCfg = Release|Any CPU
+		{03183D42-9397-47B5-B7E9-915AE798F21C}.Release|x64.Build.0 = Release|Any CPU
+		{03183D42-9397-47B5-B7E9-915AE798F21C}.Release|x86.ActiveCfg = Release|Any CPU
+		{03183D42-9397-47B5-B7E9-915AE798F21C}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1EC6EF85-283A-4311-8226-8F6C9B179661}
 	EndGlobalSection
 EndGlobal

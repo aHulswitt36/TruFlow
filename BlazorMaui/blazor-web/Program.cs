@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Infrastructure.Models;
+using Components;
 
 namespace blazor_web
 {
@@ -17,7 +19,9 @@ namespace blazor_web
             var builder = WebAssemblyHostBuilder.CreateDefault(args);
             builder.RootComponents.Add<App>("#app");
 
-            builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
+            var settings = builder.Configuration.GetSection("UsgsSettings").Get<UsgsSettings>();
+            builder.Services.AddSingleton(settings);
+            builder.Services.AddComponentLibrary(settings.BaseUrl);
 
             await builder.Build().RunAsync();
         }

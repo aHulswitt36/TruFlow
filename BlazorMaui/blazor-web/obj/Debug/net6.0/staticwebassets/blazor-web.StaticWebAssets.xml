@@ -1,0 +1,6 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="_content/Components" Path="C:\sandbox\TruFlow\BlazorMaui\Components\obj\Debug\net6.0\scopedcss\projectbundle\" />
+  <ContentRoot BasePath="_content/Components" Path="C:\sandbox\TruFlow\BlazorMaui\Components\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\sandbox\TruFlow\BlazorMaui\blazor-web\bin\Debug\net6.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\sandbox\TruFlow\BlazorMaui\blazor-web\obj\Debug\net6.0\scopedcss\bundle\" />
+</StaticWebAssets>
