@@ -134,6 +134,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "BlazorPro.Spinkit": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
             "Microsoft.AspNetCore.Components.Web": {
               "target": "Package",
               "version": "[6.0.0-preview.4.21253.5, )"
@@ -141,6 +145,10 @@
             "Microsoft.Extensions.Http": {
               "target": "Package",
               "version": "[6.0.0-preview.5.21301.5, )"
+            },
+            "Radzen.Blazor": {
+              "target": "Package",
+              "version": "[3.5.3, )"
             }
           },
           "imports": [

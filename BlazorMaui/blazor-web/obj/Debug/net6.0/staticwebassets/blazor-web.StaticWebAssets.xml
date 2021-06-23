@@ -1,6 +1,8 @@
 ﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="_content/Components" Path="C:\sandbox\TruFlow\BlazorMaui\Components\obj\Debug\net6.0\scopedcss\projectbundle\" />
-  <ContentRoot BasePath="_content/Components" Path="C:\sandbox\TruFlow\BlazorMaui\Components\wwwroot\" />
   <ContentRoot BasePath="/" Path="C:\sandbox\TruFlow\BlazorMaui\blazor-web\bin\Debug\net6.0\wwwroot\" />
   <ContentRoot BasePath="/" Path="C:\sandbox\TruFlow\BlazorMaui\blazor-web\obj\Debug\net6.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="_content/BlazorPro.Spinkit" Path="C:\Users\ahulswitt\.nuget\packages\blazorpro.spinkit\1.2.0\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/Components" Path="C:\sandbox\TruFlow\BlazorMaui\Components\obj\Debug\net6.0\scopedcss\projectbundle\" />
+  <ContentRoot BasePath="_content/Components" Path="C:\sandbox\TruFlow\BlazorMaui\Components\wwwroot\" />
+  <ContentRoot BasePath="_content/Radzen.Blazor" Path="C:\Users\ahulswitt\.nuget\packages\radzen.blazor\3.5.3\build\..\staticwebassets\" />
 </StaticWebAssets>

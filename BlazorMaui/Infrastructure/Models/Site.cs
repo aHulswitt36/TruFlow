@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Models
 {
-    public class UsgsSettings
+    public class Site
     {
-        public string BaseUrl { get; set; }
-        public string Site { get; set; }
-        public string Iv { get; set; }
+
     }
 }

@@ -649,3 +649,15 @@ C:\sandbox\TruFlow\BlazorMaui\blazor-web\obj\Debug\net6.0\blazor-web.dll
 C:\sandbox\TruFlow\BlazorMaui\blazor-web\obj\Debug\net6.0\ref\blazor-web.dll
 C:\sandbox\TruFlow\BlazorMaui\blazor-web\obj\Debug\net6.0\blazor-web.pdb
 C:\sandbox\TruFlow\BlazorMaui\blazor-web\bin\Debug\net6.0\Components.StaticWebAssets.xml
+C:\sandbox\TruFlow\BlazorMaui\blazor-web\bin\Debug\net6.0\wwwroot\_framework\Radzen.Blazor.dll.gz
+C:\sandbox\TruFlow\BlazorMaui\blazor-web\bin\Debug\net6.0\wwwroot\_framework\System.Linq.Dynamic.Core.dll.gz
+C:\sandbox\TruFlow\BlazorMaui\blazor-web\bin\Debug\net6.0\wwwroot\_framework\Radzen.Blazor.dll
+C:\sandbox\TruFlow\BlazorMaui\blazor-web\bin\Debug\net6.0\wwwroot\_framework\System.Linq.Dynamic.Core.dll
+C:\sandbox\TruFlow\BlazorMaui\blazor-web\obj\Debug\net6.0\build-gz\4Xf+OIMg.gz
+C:\sandbox\TruFlow\BlazorMaui\blazor-web\obj\Debug\net6.0\build-gz\799gJCwI.gz
+C:\sandbox\TruFlow\BlazorMaui\blazor-web\bin\Debug\net6.0\wwwroot\_framework\BlazorComponentUtilities.dll.gz
+C:\sandbox\TruFlow\BlazorMaui\blazor-web\bin\Debug\net6.0\wwwroot\_framework\BlazorPro.Spinkit.dll.gz
+C:\sandbox\TruFlow\BlazorMaui\blazor-web\bin\Debug\net6.0\wwwroot\_framework\BlazorComponentUtilities.dll
+C:\sandbox\TruFlow\BlazorMaui\blazor-web\bin\Debug\net6.0\wwwroot\_framework\BlazorPro.Spinkit.dll
+C:\sandbox\TruFlow\BlazorMaui\blazor-web\obj\Debug\net6.0\build-gz\EuFH74z1.gz
+C:\sandbox\TruFlow\BlazorMaui\blazor-web\obj\Debug\net6.0\build-gz\MAdy2LRV.gz
