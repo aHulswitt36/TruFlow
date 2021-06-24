@@ -8,23 +8,25 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ahulswitt\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\aarro\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\sandbox\\TruFlow\\BlazorMaui\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Sandbox\\truflow\\BlazorMaui\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\sandbox\\TruFlow\\BlazorMaui\\Infrastructure\\Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\ahulswitt\\.nuget\\packages\\",
-      "outputPath": "C:\\sandbox\\TruFlow\\BlazorMaui\\Infrastructure\\obj\\",
+      "projectPath": "C:\\Sandbox\\truflow\\BlazorMaui\\Infrastructure\\Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\aarro\\.nuget\\packages\\",
+      "outputPath": "C:\\Sandbox\\truflow\\BlazorMaui\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ahulswitt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\aarro\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -33,8 +35,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://embracepetinsurance.pkgs.visualstudio.com/4240c13b-ec89-4336-962e-6582d7843741/_packaging/epiNuget/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {

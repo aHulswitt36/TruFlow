@@ -6,6 +6,7 @@ namespace Infrastructure
 {
     public interface IUsgsService
     {
-         Task<UsgsSites> GetSitesForState(string stateCd);
+        Task<UsgsSites> GetSitesForState(string stateCd);
+        Task<bool> GetSiteValues(string siteNumber);
     }
 }

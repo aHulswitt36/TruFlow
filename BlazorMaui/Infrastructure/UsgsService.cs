@@ -45,5 +45,20 @@ namespace Infrastructure
             }
             
         }
+
+        public async Task<bool> GetSiteValues(string siteNumber)
+        {
+            try
+            {
+                var url = _usgsSettings.Iv + $"?format=json&sites={siteNumber}&siteStatus=all";
+                var response = await _httpClient.GetAsync(url);
+
+                return true;
+            }
+            catch (Exception e)
+            {
+                return false;
+            }
+        }
     }
 }

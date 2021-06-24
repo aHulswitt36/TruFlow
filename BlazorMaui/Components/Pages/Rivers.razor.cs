@@ -16,11 +16,14 @@ namespace Components.Pages
         private List<State> states;
         private List<UsgsSite> sites;
         private bool selectedState = false;
+        private string selectedSiteNumber;
+        private bool selectedSite = false;
+        
 
-        protected override Task OnInitializedAsync()
+        protected override async Task OnInitializedAsync()
         {
             states = BuildStateList();
-            return base.OnInitializedAsync();
+            //return base.OnInitializedAsync();
         }
 
         private List<State> BuildStateList()
@@ -85,6 +88,7 @@ namespace Components.Pages
             {
                 selectedState = true;
                 sites = null;
+                selectedSiteNumber = null;
             }
 
             var usgsSites = await _usgsService.GetSitesForState(value.ToString().ToLower());
@@ -93,6 +97,9 @@ namespace Components.Pages
 
         async Task OnSiteSelection(object value, string name)
         {
+            selectedSite = true;
+            selectedSiteNumber = value.ToString();
+
 
         }
     }
