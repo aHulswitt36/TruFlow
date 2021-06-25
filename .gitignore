@@ -19,3 +19,9 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+/BlazorMaui/blazor-web/bin
+/BlazorMaui/blazor-web/obj
+/BlazorMaui/Components/bin
+/BlazorMaui/Components/obj
+/BlazorMaui/Infrastructure/bin
+/BlazorMaui/Infrastructure/obj
