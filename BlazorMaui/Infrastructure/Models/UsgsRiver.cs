@@ -10,71 +10,71 @@ namespace Infrastructure.Models
 
     public partial class UsgsRiver
     {
-        [JsonProperty("name")]
-        public string Name { get; set; }
+        //[JsonProperty("name")]
+        //public string Name { get; set; }
 
-        [JsonProperty("declaredType")]
-        public string DeclaredType { get; set; }
+        //[JsonProperty("declaredType")]
+        //public string DeclaredType { get; set; }
 
-        [JsonProperty("scope")]
-        public string Scope { get; set; }
+        //[JsonProperty("scope")]
+        //public string Scope { get; set; }
 
         [JsonProperty("value")]
         public UsgsRiverValue Value { get; set; }
+            
+        //[JsonProperty("nil")]
+        //public bool Nil { get; set; }
 
-        [JsonProperty("nil")]
-        public bool Nil { get; set; }
+        //[JsonProperty("globalScope")]
+        //public bool GlobalScope { get; set; }
 
-        [JsonProperty("globalScope")]
-        public bool GlobalScope { get; set; }
-
-        [JsonProperty("typeSubstituted")]
-        public bool TypeSubstituted { get; set; }
+        //[JsonProperty("typeSubstituted")]
+        //public bool TypeSubstituted { get; set; }
     }
 
     public partial class UsgsRiverValue
     {
-        [JsonProperty("queryInfo")]
-        public QueryInfo QueryInfo { get; set; }
+        //[JsonProperty("queryInfo")]
+        //public QueryInfo QueryInfo { get; set; }
 
         [JsonProperty("timeSeries")]
-        public List<TimeSery> TimeSeries { get; set; }
+        public List<TimeSeries> TimeSeries { get; set; }
     }
 
-    public partial class QueryInfo
-    {
-        [JsonProperty("queryURL")]
-        public Uri QueryUrl { get; set; }
+    //public partial class QueryInfo
+    //{
+    //    [JsonProperty("queryURL")]
+    //    public Uri QueryUrl { get; set; }
 
-        [JsonProperty("criteria")]
-        public Criteria Criteria { get; set; }
+    //    [JsonProperty("criteria")]
+    //    public Criteria Criteria { get; set; }
 
-        [JsonProperty("note")]
-        public List<Note> Note { get; set; }
-    }
+    //    [JsonProperty("note")]
+    //    public List<Note> Note { get; set; }
+    //}
 
-    public partial class Criteria
-    {
-        [JsonProperty("locationParam")]
-        public string LocationParam { get; set; }
+    //public partial class Criteria
+    //{
+    //    [JsonProperty("locationParam")]
+    //    public string LocationParam { get; set; }
 
-        [JsonProperty("variableParam")]
-        public string VariableParam { get; set; }
+    //    [JsonProperty("variableParam")]
+    //    public string VariableParam { get; set; }
 
-        [JsonProperty("parameter")]
-        public List<object> Parameter { get; set; }
-    }
+    //    [JsonProperty("parameter")]
+    //    public List<object> Parameter { get; set; }
+    //}
 
-    public partial class Note
-    {
-        [JsonProperty("value")]
-        public string Value { get; set; }
+    //public partial class Note
+    //{
+    //    [JsonProperty("value")]
+    //    public string Value { get; set; }
 
-        [JsonProperty("title")]
-        public string Title { get; set; }
-    }
+    //    [JsonProperty("title")]
+    //    public string Title { get; set; }
+    //}
 
-    public partial class TimeSery
+    public partial class TimeSeries
     {
         [JsonProperty("sourceInfo")]
         public SourceInfo SourceInfo { get; set; }
@@ -83,7 +83,7 @@ namespace Infrastructure.Models
         public Variable Variable { get; set; }
 
         [JsonProperty("values")]
-        public List<TimeSeryValue> Values { get; set; }
+        public List<TimeSeriesValue> Values { get; set; }
 
         [JsonProperty("name")]
         public string Name { get; set; }
@@ -176,31 +176,33 @@ namespace Infrastructure.Models
         public string ZoneAbbreviation { get; set; }
     }
 
-    public partial class TimeSeryValue
+    public partial class TimeSeriesValue
     {
         [JsonProperty("value")]
         public List<ValueValue> Value { get; set; }
 
-        [JsonProperty("qualifier")]
-        public List<Qualifier> Qualifier { get; set; }
+        public string CalculatedValue { get; set; }
 
-        [JsonProperty("qualityControlLevel")]
-        public List<object> QualityControlLevel { get; set; }
+        //[JsonProperty("qualifier")]
+        //public List<Qualifier> Qualifier { get; set; }
 
-        [JsonProperty("method")]
-        public List<Method> Method { get; set; }
+        //[JsonProperty("qualityControlLevel")]
+        //public List<object> QualityControlLevel { get; set; }
 
-        [JsonProperty("source")]
-        public List<object> Source { get; set; }
+        //[JsonProperty("method")]
+        //public List<Method> Method { get; set; }
 
-        [JsonProperty("offset")]
-        public List<object> Offset { get; set; }
+        //[JsonProperty("source")]
+        //public List<object> Source { get; set; }
 
-        [JsonProperty("sample")]
-        public List<object> Sample { get; set; }
+        //[JsonProperty("offset")]
+        //public List<object> Offset { get; set; }
 
-        [JsonProperty("censorCode")]
-        public List<object> CensorCode { get; set; }
+        //[JsonProperty("sample")]
+        //public List<object> Sample { get; set; }
+
+        //[JsonProperty("censorCode")]
+        //public List<object> CensorCode { get; set; }
     }
 
     public partial class Method
@@ -233,11 +235,10 @@ namespace Infrastructure.Models
     public partial class ValueValue
     {
         [JsonProperty("value")]
-        [JsonConverter(typeof(ParseStringConverter))]
-        public long Value { get; set; }
+        public decimal Value { get; set; }
 
-        [JsonProperty("qualifiers")]
-        public List<string> Qualifiers { get; set; }
+        //[JsonProperty("qualifiers")]
+        //public List<string> Qualifiers { get; set; }
 
         [JsonProperty("dateTime")]
         public DateTimeOffset DateTime { get; set; }
@@ -245,8 +246,8 @@ namespace Infrastructure.Models
 
     public partial class Variable
     {
-        [JsonProperty("variableCode")]
-        public List<VariableCode> VariableCode { get; set; }
+        //[JsonProperty("variableCode")]
+        //public List<VariableCode> VariableCode { get; set; }
 
         [JsonProperty("variableName")]
         public string VariableName { get; set; }
@@ -254,43 +255,42 @@ namespace Infrastructure.Models
         [JsonProperty("variableDescription")]
         public string VariableDescription { get; set; }
 
-        [JsonProperty("valueType")]
-        public string ValueType { get; set; }
+        //[JsonProperty("valueType")]
+        //public string ValueType { get; set; }
 
         [JsonProperty("unit")]
         public Unit Unit { get; set; }
 
-        [JsonProperty("options")]
-        public Options Options { get; set; }
+        //[JsonProperty("options")]
+        //public Options Options { get; set; }
 
-        [JsonProperty("note")]
-        public List<object> Note { get; set; }
+        //[JsonProperty("note")]
+        //public List<object> Note { get; set; }
 
-        [JsonProperty("noDataValue")]
-        public long NoDataValue { get; set; }
+        //[JsonProperty("noDataValue")]
+        //public long NoDataValue { get; set; }
 
-        [JsonProperty("variableProperty")]
-        public List<object> VariableProperty { get; set; }
+        //[JsonProperty("variableProperty")]
+        //public List<object> VariableProperty { get; set; }
 
-        [JsonProperty("oid")]
-        [JsonConverter(typeof(ParseStringConverter))]
-        public long Oid { get; set; }
+        //[JsonProperty("oid")]
+        //public long Oid { get; set; }
     }
 
-    public partial class Options
-    {
-        [JsonProperty("option")]
-        public List<Option> Option { get; set; }
-    }
+    //public partial class Options
+    //{
+    //    [JsonProperty("option")]
+    //    public List<Option> Option { get; set; }
+    //}
 
-    public partial class Option
-    {
-        [JsonProperty("name")]
-        public string Name { get; set; }
+    //public partial class Option
+    //{
+    //    [JsonProperty("name")]
+    //    public string Name { get; set; }
 
-        [JsonProperty("optionCode")]
-        public string OptionCode { get; set; }
-    }
+    //    [JsonProperty("optionCode")]
+    //    public string OptionCode { get; set; }
+    //}
 
     public partial class Unit
     {
@@ -298,76 +298,24 @@ namespace Infrastructure.Models
         public string UnitCode { get; set; }
     }
 
-    public partial class VariableCode
-    {
-        [JsonProperty("value")]
-        public string Value { get; set; }
+    //public partial class VariableCode
+    //{
+    //    [JsonProperty("value")]
+    //    public string Value { get; set; }
 
-        [JsonProperty("network")]
-        public string Network { get; set; }
+    //    [JsonProperty("network")]
+    //    public string Network { get; set; }
 
-        [JsonProperty("vocabulary")]
-        public string Vocabulary { get; set; }
+    //    [JsonProperty("vocabulary")]
+    //    public string Vocabulary { get; set; }
 
-        [JsonProperty("variableID")]
-        public long VariableId { get; set; }
+    //    [JsonProperty("variableID")]
+    //    public long VariableId { get; set; }
 
-        [JsonProperty("default")]
-        public bool Default { get; set; }
-    }
+    //    [JsonProperty("default")]
+    //    public bool Default { get; set; }
+    //}
 
-    public partial class UsgsRiver
-    {
-        public static UsgsRiver FromJson(string json) => JsonConvert.DeserializeObject<UsgsRiver>(json, QuickType.Converter.Settings);
-    }
-
-    public static class Serialize
-    {
-        public static string ToJson(this UsgsRiver self) => JsonConvert.SerializeObject(self, QuickType.Converter.Settings);
-    }
-
-    internal static class Converter
-    {
-        public static readonly JsonSerializerSettings Settings = new JsonSerializerSettings
-        {
-            MetadataPropertyHandling = MetadataPropertyHandling.Ignore,
-            DateParseHandling = DateParseHandling.None,
-            Converters =
-            {
-                new IsoDateTimeConverter { DateTimeStyles = DateTimeStyles.AssumeUniversal }
-            },
-        };
-    }
-
-    internal class ParseStringConverter : JsonConverter
-    {
-        public override bool CanConvert(Type t) => t == typeof(long) || t == typeof(long?);
-
-        public override object ReadJson(JsonReader reader, Type t, object existingValue, JsonSerializer serializer)
-        {
-            if (reader.TokenType == JsonToken.Null) return null;
-            var value = serializer.Deserialize<string>(reader);
-            long l;
-            if (Int64.TryParse(value, out l))
-            {
-                return l;
-            }
-            throw new Exception("Cannot unmarshal type long");
-        }
-
-        public override void WriteJson(JsonWriter writer, object untypedValue, JsonSerializer serializer)
-        {
-            if (untypedValue == null)
-            {
-                serializer.Serialize(writer, null);
-                return;
-            }
-            var value = (long)untypedValue;
-            serializer.Serialize(writer, value.ToString());
-            return;
-        }
-
-        public static readonly ParseStringConverter Singleton = new ParseStringConverter();
-    }
+    
 }
 

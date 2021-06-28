@@ -19,11 +19,5 @@
 
 @if (selectedState && selectedSite)
 {
-<SpinLoader IsLoading="@(sites == null)">
-    <LoadingTemplate>
-        <Circle Color="#000000" Center="true" />
-    </LoadingTemplate>
-    <ContentTemplate>
-        <River SiteNumber="@selectedSiteNumber"/>
-    </ContentTemplate>
-</SpinLoader>}
+    <River SiteNumber="@selectedSiteNumber"/>
+}

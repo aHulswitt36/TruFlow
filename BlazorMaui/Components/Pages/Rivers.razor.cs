@@ -1,3 +1,5 @@
+using Components.Services;
+using Components.Shared;
 using Infrastructure;
 using Infrastructure.Models;
 using Microsoft.AspNetCore.Components;
@@ -13,11 +15,14 @@ namespace Components.Pages
     {
         [Inject]
         IUsgsService _usgsService { get; set; }
+        
         private List<State> states;
         private List<UsgsSite> sites;
         private bool selectedState = false;
         private string selectedSiteNumber;
         private bool selectedSite = false;
+
+        protected River ChildComponent;
         
 
         protected override async Task OnInitializedAsync()
@@ -97,10 +102,10 @@ namespace Components.Pages
 
         async Task OnSiteSelection(object value, string name)
         {
+            selectedSite = false;
+            StateHasChanged();
             selectedSite = true;
             selectedSiteNumber = value.ToString();
-
-
         }
     }
 }

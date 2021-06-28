@@ -1,5 +1,6 @@
 using Infrastructure.Models;
 using Infrastructure.Settings;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -46,18 +47,24 @@ namespace Infrastructure
             
         }
 
-        public async Task<bool> GetSiteValues(string siteNumber)
+        public async Task<UsgsRiver> GetSiteValues(string siteNumber)
         {
             try
             {
                 var url = _usgsSettings.Iv + $"?format=json&sites={siteNumber}&siteStatus=all";
                 var response = await _httpClient.GetAsync(url);
+                var river = new UsgsRiver();
+                if (response.StatusCode != HttpStatusCode.OK)
+                {
+                    throw new Exception($"USGS responded with: {response.StatusCode} and message: {response.ReasonPhrase}");
+                }
+                river = JsonConvert.DeserializeObject<UsgsRiver>(await response.Content.ReadAsStringAsync());
 
-                return true;
+                return river;
             }
             catch (Exception e)
             {
-                return false;
+                return null;
             }
         }
     }
