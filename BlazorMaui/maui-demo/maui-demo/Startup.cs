@@ -8,6 +8,10 @@ using Microsoft.Maui.Controls.Hosting;
 using Microsoft.Maui.Controls.Xaml;
 using Microsoft.Maui.Hosting;
 using Microsoft.Maui.LifecycleEvents;
+using Newtonsoft.Json;
+using System.IO;
+using System.Linq;
+using System.Reflection;
 
 [assembly: XamlCompilationAttribute(XamlCompilationOptions.Compile)]
 
@@ -20,17 +24,19 @@ namespace maui_demo
             appBuilder
                 .UseMauiApp<App>()
                 .UseMicrosoftExtensionsServiceProviderFactory()
-                .ConfigureHostConfiguration(host =>
-                {
-                    host.AddJsonFile("~/appsettings.json");
-                })
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                 })
                 .ConfigureServices((hostContext, services) =>
                 {
-                    services.Configure<UsgsSettings>(o => hostContext.Configuration.GetSection("UsgsSettings"));
+                    var assembly = Assembly.GetExecutingAssembly();
+                    var resName = assembly.GetManifestResourceNames().FirstOrDefault(r => r.EndsWith("settings.json", System.StringComparison.OrdinalIgnoreCase));
+                    var file = assembly.GetManifestResourceStream(resName);
+                    using var sr = new StreamReader(file);
+                    var json = sr.ReadToEnd();
+                    var settings = JsonConvert.DeserializeObject<BaseSettings>(json);
+                    services.AddSingleton(settings.UsgsSettings);
                     services.AddComponentLibrary("https://waterservices.usgs.gov/nwis/");
                 })
                 .ConfigureLifecycleEvents(lifecycle => {

@@ -26,7 +26,7 @@ namespace Infrastructure
         {
             try
             {
-                var url = _usgsSettings.Site + $"?format=mapper,1.0&stateCd={stateCd}&siteStatus=all&hasDataTypeCd=iv";
+                var url = $"site/?format=mapper,1.0&stateCd={stateCd}&siteStatus=all&hasDataTypeCd=iv";
                 var response = await _httpClient.GetAsync(url);
                 var sites = new UsgsSites();
                 if (response.StatusCode == HttpStatusCode.OK)
@@ -51,7 +51,7 @@ namespace Infrastructure
         {
             try
             {
-                var url = _usgsSettings.Iv + $"?format=json&sites={siteNumber}&siteStatus=all";
+                var url = $"iv/?format=json&sites={siteNumber}&siteStatus=all";
                 var response = await _httpClient.GetAsync(url);
                 var river = new UsgsRiver();
                 if (response.StatusCode != HttpStatusCode.OK)

@@ -4,10 +4,11 @@
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup>
-    <ActiveDebugProfile>maui-demo</ActiveDebugProfile>
+    <ActiveDebugProfile>Android Emulator</ActiveDebugProfile>
     <ActiveDebugFramework>net6.0-android</ActiveDebugFramework>
     <SelectedDevice>pixel_3_xl_r_11_0_-_api_30</SelectedDevice>
     <DefaultDevice>pixel_3_xl_r_11_0_-_api_30</DefaultDevice>
+    <ShowAllFiles>true</ShowAllFiles>
   </PropertyGroup>
   <ItemGroup>
     <MauiXaml Update="App.xaml">

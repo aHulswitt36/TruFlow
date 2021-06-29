@@ -4,9 +4,11 @@ using System;
 using System.Linq;
 using Microsoft.Maui;
 using maui_demo.Services;
+using Microsoft.Maui.Controls.Xaml;
 
 namespace maui_demo
 {
+    [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MainPage : ContentPage, IPage
     {
         private readonly IUsgsService _usgsService;
