@@ -8,7 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Infrastructure.Settings;
-using Components;
+using Infrastructure;
 
 namespace blazor_web
 {

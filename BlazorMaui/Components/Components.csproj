@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="ServiceCollectionExtensions.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Shared\MainLayout.razor.css" />
     <None Remove="Shared\NavMenu.razor.css" />
   </ItemGroup>

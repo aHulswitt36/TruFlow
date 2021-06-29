@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "maui_blazor.WinUI": {
+      "commandName": "AppContainer"
+    }
+  }
+}

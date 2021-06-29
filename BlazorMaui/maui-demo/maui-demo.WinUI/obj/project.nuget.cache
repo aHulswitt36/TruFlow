@@ -1,0 +1,67 @@
+{
+  "version": 2,
+  "dgSpecHash": "+QnPkTba/L8bNxCn991v3Ccv2IDVcr7n0qxW9VlFgSxGZJyOgnXp8iuYM+6ENwGimgHIu9sKmo5r+LTJ7cEm8w==",
+  "success": false,
+  "projectFilePath": "C:\\sandbox\\TruFlow\\BlazorMaui\\maui-demo\\maui-demo.WinUI\\maui-demo.WinUI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ahulswitt\\.nuget\\packages\\microsoft.graphics.win2d\\0.5.0.13\\microsoft.graphics.win2d.0.5.0.13.nupkg.sha512",
+    "C:\\Users\\ahulswitt\\.nuget\\packages\\microsoft.maui.dependencies\\6.0.100-preview.6.898\\microsoft.maui.dependencies.6.0.100-preview.6.898.nupkg.sha512",
+    "C:\\Users\\ahulswitt\\.nuget\\packages\\microsoft.maui.graphics\\6.0.100-preview.5.246\\microsoft.maui.graphics.6.0.100-preview.5.246.nupkg.sha512",
+    "C:\\Users\\ahulswitt\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\6.0.100-preview.5.229\\microsoft.maui.graphics.win2d.winui.desktop.6.0.100-preview.5.229.nupkg.sha512",
+    "C:\\Users\\ahulswitt\\.nuget\\packages\\microsoft.projectreunion\\0.8.0-preview\\microsoft.projectreunion.0.8.0-preview.nupkg.sha512",
+    "C:\\Users\\ahulswitt\\.nuget\\packages\\microsoft.projectreunion.dwrite\\0.8.0-preview\\microsoft.projectreunion.dwrite.0.8.0-preview.nupkg.sha512",
+    "C:\\Users\\ahulswitt\\.nuget\\packages\\microsoft.projectreunion.foundation\\0.8.0-preview\\microsoft.projectreunion.foundation.0.8.0-preview.nupkg.sha512",
+    "C:\\Users\\ahulswitt\\.nuget\\packages\\microsoft.projectreunion.interactiveexperiences\\0.8.0-preview\\microsoft.projectreunion.interactiveexperiences.0.8.0-preview.nupkg.sha512",
+    "C:\\Users\\ahulswitt\\.nuget\\packages\\microsoft.projectreunion.winui\\0.8.0-preview\\microsoft.projectreunion.winui.0.8.0-preview.nupkg.sha512",
+    "C:\\Users\\ahulswitt\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\ahulswitt\\.nuget\\packages\\reloadify3000\\1.0.6\\reloadify3000.1.0.6.nupkg.sha512",
+    "C:\\Users\\ahulswitt\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.0-preview.5.21301.5\\microsoft.netcore.app.runtime.win-x64.6.0.0-preview.5.21301.5.nupkg.sha512",
+    "C:\\Users\\ahulswitt\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.0-preview.5.21301.17\\microsoft.aspnetcore.app.runtime.win-x64.6.0.0-preview.5.21301.17.nupkg.sha512",
+    "C:\\Users\\ahulswitt\\.nuget\\packages\\microsoft.netcore.app.runtime.win-arm64\\6.0.0-preview.5.21301.5\\microsoft.netcore.app.runtime.win-arm64.6.0.0-preview.5.21301.5.nupkg.sha512",
+    "C:\\Users\\ahulswitt\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.0-preview.5.21301.4\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.0-preview.5.21301.4.nupkg.sha512",
+    "C:\\Users\\ahulswitt\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.16\\microsoft.windows.sdk.net.ref.10.0.19041.16.nupkg.sha512",
+    "C:\\Users\\ahulswitt\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-arm64\\6.0.0-preview.5.21301.17\\microsoft.aspnetcore.app.runtime.win-arm64.6.0.0-preview.5.21301.17.nupkg.sha512",
+    "C:\\Users\\ahulswitt\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\6.0.0-preview.5.21301.5\\microsoft.netcore.app.runtime.win-x86.6.0.0-preview.5.21301.5.nupkg.sha512",
+    "C:\\Users\\ahulswitt\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-arm64\\6.0.0-preview.5.21301.4\\microsoft.windowsdesktop.app.runtime.win-arm64.6.0.0-preview.5.21301.4.nupkg.sha512",
+    "C:\\Users\\ahulswitt\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\6.0.0-preview.5.21301.17\\microsoft.aspnetcore.app.runtime.win-x86.6.0.0-preview.5.21301.17.nupkg.sha512",
+    "C:\\Users\\ahulswitt\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\6.0.0-preview.5.21301.4\\microsoft.windowsdesktop.app.runtime.win-x86.6.0.0-preview.5.21301.4.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.Maui.Core.Runtime.win. No packages exist with this id in source(s): C:\\Program Files\\dotnet\\library-packs, epiNuget, Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "Microsoft.Maui.Core.Runtime.win",
+      "targetGraphs": [
+        "net6.0-windows10.0.19041"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.Maui.Extensions. No packages exist with this id in source(s): C:\\Program Files\\dotnet\\library-packs, epiNuget, Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "Microsoft.Maui.Extensions",
+      "targetGraphs": [
+        "net6.0-windows10.0.19041"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.Maui.Controls.Runtime.win. No packages exist with this id in source(s): C:\\Program Files\\dotnet\\library-packs, epiNuget, Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "Microsoft.Maui.Controls.Runtime.win",
+      "targetGraphs": [
+        "net6.0-windows10.0.19041"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.Maui.Essentials.Runtime.win. No packages exist with this id in source(s): C:\\Program Files\\dotnet\\library-packs, epiNuget, Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "Microsoft.Maui.Essentials.Runtime.win",
+      "targetGraphs": [
+        "net6.0-windows10.0.19041"
+      ]
+    }
+  ]
+}
