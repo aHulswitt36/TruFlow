@@ -25,3 +25,8 @@ yarn-error.log*
 /BlazorMaui/Components/obj
 /BlazorMaui/Infrastructure/bin
 /BlazorMaui/Infrastructure/obj
+/BlazorMaui/maui-demo/maui-demo/bin
+/BlazorMaui/maui-demo/maui-demo/obj
+/BlazorMaui/maui-demo/maui-demo.WinUI/obj
+/BlazorMaui/maui-blazor/maui-blazor/obj
+/BlazorMaui/maui-blazor/maui-blazor.WinUI/obj
