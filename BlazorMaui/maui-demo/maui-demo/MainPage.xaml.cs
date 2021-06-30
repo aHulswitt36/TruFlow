@@ -7,15 +7,20 @@ using maui_demo.Services;
 using Microsoft.Maui.Controls.Xaml;
 using System.Threading.Tasks;
 using Infrastructure.Models;
+using System.Runtime.CompilerServices;
+using maui_demo.ViewModels;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace maui_demo
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MainPage : ContentPage, IPage
     {
-        public MainPage()
+        private readonly IServiceProvider _services;
+        public MainPage(IServiceProvider services)
         {
             InitializeComponent();
+            _services = services;
         }
 
         int count = 0;
@@ -27,7 +32,8 @@ namespace maui_demo
 
         async void OnRiversClicked(object sender, EventArgs e)
         {
-            await (App.Current.MainPage as NavigationPage).PushAsync(new Rivers());
+            var vm = _services.GetRequiredService<RiversViewModel>();
+            await (App.Current.MainPage as NavigationPage).PushAsync(new Rivers(vm));
         }
     }
 }

@@ -4,9 +4,6 @@
              xmlns:viewModels="clr-namespace:maui_demo.ViewModels"
              x:Class="maui_demo.Rivers"
              BackgroundColor="{DynamicResource PageBackgroundColor}">
-    <ContentPage.BindingContext>
-        <viewModels:RiversViewModel/>
-    </ContentPage.BindingContext>
     <ScrollView Padding="{OnPlatform iOS='30,60,30,30', Default='30'}">
         <StackLayout>
             <Grid RowSpacing="25" RowDefinitions="Auto,Auto,Auto,Auto,*">
@@ -18,7 +15,6 @@
                     Title="Select a State"
                     ItemsSource="{Binding States}"
                     ItemDisplayBinding="{Binding Name}"
-                    SelectedIndexChanged="StatePicker_OnSelectedIndexChanged"
                     SelectedItem="{Binding SelectedState}">
                 </Picker>
             </Grid>
@@ -26,11 +22,12 @@
             <Grid RowSpacing="25" RowDefinitions="Auto,Auto,Auto,Auto,*">
                 <Picker
                     x:Name="ddlSites"
-                    IsEnabled="False"
+                    IsEnabled="{Binding IsSitesEnabled}"
                     Title="Select a Site"
                     ItemsSource="{Binding StateSites}"
                     ItemDisplayBinding="{Binding Name}"
-                    SelectedItem="{Binding SelectedSite}"
+                    SelectedItem="{Binding SelectedSite}">
+                </Picker>
             </Grid>
         </StackLayout>
     </ScrollView>

@@ -7,11 +7,10 @@ namespace maui_demo
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Rivers : ContentPage
     {
-        public Rivers()
+        public Rivers(RiversViewModel vm)
         {
             InitializeComponent();
-           // BindingContext = new RiversViewModel();
-            
+            BindingContext = vm;            
         }
     }
 }

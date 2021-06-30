@@ -1,5 +1,6 @@
 using Infrastructure;
 using Infrastructure.Models;
+using Microsoft.Maui.Controls;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -7,15 +8,19 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
 
 namespace maui_demo.ViewModels
 {
     public class RiversViewModel : BaseViewModel
     {
+        private ICommand _stateSelectedCommand;
+
         private readonly IUsgsService _usgsService;
         public RiversViewModel(IUsgsService usgsService)
         {
             _usgsService = usgsService;
+            IsSitesEnabled = false;
         }
         public List<State> States
         {
@@ -31,6 +36,7 @@ namespace maui_demo.ViewModels
                 if(_selectedState != value)
                 {
                     _selectedState = value;
+                    Task.Run(async () => { GetStateSites(); });
                     OnPropertyChanged("SelectedState");
                 }
             }
@@ -64,10 +70,31 @@ namespace maui_demo.ViewModels
             }
         }
 
-        private async void StatePicker_OnSelectedIndexChanged(object sender, EventArgs e)
+        private bool _isSitesEnabled;
+        public bool IsSitesEnabled
         {
+            get => _isSitesEnabled;
+            set
+            {
+                if (_isSitesEnabled != value)
+                {
+                    _isSitesEnabled = value;
+                    OnPropertyChanged("IsSitesEnabled");
+                }
+            }
+        }
+
+        public ICommand StateChangeEventHandler{ 
+            get{
+                if (_stateSelectedCommand == null)
+                    _stateSelectedCommand = new Command(GetStateSites);
+                return _stateSelectedCommand;
+            }
+        }
+        private async void GetStateSites(){
             var sites = await _usgsService.GetSitesForState(_selectedState.Code);
             StateSites = sites.Sites.sites;
+            IsSitesEnabled = true;
         }
 
         private List<State> BuildStateList()

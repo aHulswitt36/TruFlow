@@ -58,7 +58,16 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Pages\CustomNavigationPage.xaml.cs">
+	    <DependentUpon>CustomNavigationPage.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiXaml Update="MainPage.xaml">
+	    <Generator></Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\CustomNavigationPage.xaml">
 	    <Generator></Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Rivers.xaml">

@@ -1,9 +1,11 @@
 using Infrastructure;
 using Infrastructure.Settings;
+using maui_demo.Pages;
 using maui_demo.ViewModels;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Maui;
+using Microsoft.Maui.Controls;
 using Microsoft.Maui.Controls.Compatibility;
 using Microsoft.Maui.Controls.Hosting;
 using Microsoft.Maui.Controls.Xaml;
@@ -37,10 +39,12 @@ namespace maui_demo
                     );
                     using var sr = new StreamReader(file);
                     var json = sr.ReadToEnd();
-                    var settings = JsonConvert.DeserializeObject<BaseSettings>(json);
+                    var settings = JsonConvert.DeserializeObject<Infrastructure.Settings.BaseSettings>(json);
                     services.AddSingleton(settings.UsgsSettings);
                     services.AddComponentLibrary("https://waterservices.usgs.gov/nwis/");
                     services.AddTransient<RiversViewModel>();
+                    services.AddTransient(serviceType: typeof(Page),
+                        implementationType: typeof(CustomNavigationPage));
                 })
                 .ConfigureLifecycleEvents(lifecycle => {
 #if ANDROID

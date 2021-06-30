@@ -1,3 +1,4 @@
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Maui;
 using Microsoft.Maui.Controls;
 using Microsoft.Maui.Controls.PlatformConfiguration;
@@ -9,16 +10,20 @@ namespace maui_demo
 {
     public partial class App : Application
     {
-        public App()
+        public IServiceProvider Services { get; }
+        public App(IServiceProvider services)
         {
             InitializeComponent();
+            Services = services;
+
+            MainPage = Services.GetRequiredService<Microsoft.Maui.Controls.Page>();
         }
 
-        protected override Window CreateWindow(IActivationState activationState)
-        {
-            //Microsoft.Maui.Controls.Compatibility.Forms.Init(activationState);
-            On<Windows>().SetImageDirectory("Assets");
-            return new Window(new NavigationPage(new MainPage()));
-        }
+        //protected override Window CreateWindow(IActivationState activationState)
+        //{
+        //    //Microsoft.Maui.Controls.Compatibility.Forms.Init(activationState);
+        //    On<Windows>().SetImageDirectory("Assets");
+        //    return new Window(new NavigationPage(new MainPage()));
+        //}
     }
 }
