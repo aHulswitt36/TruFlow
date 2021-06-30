@@ -1,5 +1,6 @@
 using Infrastructure;
 using Infrastructure.Settings;
+using maui_demo.ViewModels;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Maui;
@@ -39,6 +40,7 @@ namespace maui_demo
                     var settings = JsonConvert.DeserializeObject<BaseSettings>(json);
                     services.AddSingleton(settings.UsgsSettings);
                     services.AddComponentLibrary("https://waterservices.usgs.gov/nwis/");
+                    services.AddTransient<RiversViewModel>();
                 })
                 .ConfigureLifecycleEvents(lifecycle => {
 #if ANDROID
