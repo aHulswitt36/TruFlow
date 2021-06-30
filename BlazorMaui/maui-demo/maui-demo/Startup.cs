@@ -31,8 +31,9 @@ namespace maui_demo
                 .ConfigureServices((hostContext, services) =>
                 {
                     var assembly = Assembly.GetExecutingAssembly();
-                    var resName = assembly.GetManifestResourceNames().FirstOrDefault(r => r.EndsWith("settings.json", System.StringComparison.OrdinalIgnoreCase));
-                    var file = assembly.GetManifestResourceStream(resName);
+                    var file = assembly.GetManifestResourceStream(
+                        assembly.GetManifestResourceNames().FirstOrDefault(r => r.EndsWith("settings.json", System.StringComparison.OrdinalIgnoreCase))
+                    );
                     using var sr = new StreamReader(file);
                     var json = sr.ReadToEnd();
                     var settings = JsonConvert.DeserializeObject<BaseSettings>(json);

@@ -5,6 +5,8 @@ using System.Linq;
 using Microsoft.Maui;
 using maui_demo.Services;
 using Microsoft.Maui.Controls.Xaml;
+using System.Threading.Tasks;
+using Infrastructure.Models;
 
 namespace maui_demo
 {
@@ -29,10 +31,16 @@ namespace maui_demo
         private void OnRiversClicked(object sender, EventArgs e)
         {
             count++;
-            var test = _usgsService.GetSitesForState("OH").Result;
-            var hoga = test.Sites.sites.First(s => s.Name.Contains("Cuyahoga"));
+            var hoga = new UsgsSite();
+
+            Task.Run(async () =>
+            {
+                var test = await _usgsService.GetSitesForState("OH");
+                hoga = test.Sites.sites.First(s => s.Name.Contains("Cuyahoga"));
+            }).Wait();
 
             CounterLabel.Text = $"Site: {hoga}";
+
         }
     }
 }
