@@ -1,10 +1,10 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+<Project Sdk="Microsoft.NET.Sdk.Razor">
 
 	<PropertyGroup>
 		<!-- iOS, Android, MacCatalyst -->
 		<TargetFrameworks>net6.0-ios;net6.0-android;net6.0-maccatalyst</TargetFrameworks>
 		<OutputType>Exe</OutputType>
-		<UseMaui>true</UseMaui>
+		<!--<UseMaui>true</UseMaui>-->
 		<SingleProject>true</SingleProject>
 		<RootNamespace>maui_blazor</RootNamespace>
 
@@ -34,21 +34,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <AtlasTexture Remove="wwwroot\css\**" />
-	  <BundleResource Remove="wwwroot\css\**" />
-	  <Compile Remove="wwwroot\css\**" />
-	  <Content Remove="wwwroot\css\**" />
-	  <CoreMLModel Remove="wwwroot\css\**" />
-	  <EmbeddedResource Remove="wwwroot\css\**" />
-	  <ImageAsset Remove="wwwroot\css\**" />
-	  <InterfaceDefinition Remove="wwwroot\css\**" />
-	  <Metal Remove="wwwroot\css\**" />
-	  <None Remove="wwwroot\css\**" />
-	  <SceneKitAsset Remove="wwwroot\css\**" />
-	</ItemGroup>
-
-	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebView.Maui" Version="6.0.100-preview.5.794" />
 		<PackageReference Include="Microsoft.Extensions.FileProviders.Embedded" Version="6.0.0-preview.5.*" />
+		<PackageReference Include="Microsoft.Maui" Version="6.0.100-preview.5.794" />
 	</ItemGroup>
 
 	<PropertyGroup>
@@ -57,17 +45,11 @@
 		<RuntimeIdentifier Condition="$(TargetFramework.Contains('-maccatalyst'))">maccatalyst-x64</RuntimeIdentifier>
 		<UseInterpreter Condition="$(TargetFramework.Contains('-android'))">True</UseInterpreter>
 	</PropertyGroup>
-
-	<ItemGroup>
-	  <RazorComponent Remove="wwwroot\css\**" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <_MauiCompileToAdd Remove="wwwroot\css\**" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <_MauiXamlToRemove Remove="wwwroot\css\**" />
-	</ItemGroup>
+  <ItemGroup Condition="$(TargetFramework.Contains('-android'))">
+    <AndroidEnvironment Include="Android\AndroidEnvironment.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Components\Components.csproj" />
+  </ItemGroup>
 
 </Project>
