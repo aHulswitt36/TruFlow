@@ -34,6 +34,21 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <AtlasTexture Remove="Components\**" />
+	  <BundleResource Remove="Components\**" />
+	  <Compile Remove="Components\**" />
+	  <CoreMLModel Remove="Components\**" />
+	  <EmbeddedResource Remove="Components\**" />
+	  <ImageAsset Remove="Components\**" />
+	  <InterfaceDefinition Remove="Components\**" />
+	  <MauiCss Remove="Components\**" />
+	  <MauiXaml Remove="Components\**" />
+	  <Metal Remove="Components\**" />
+	  <None Remove="Components\**" />
+	  <SceneKitAsset Remove="Components\**" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <None Remove="appsettings.json" />
 	</ItemGroup>
 
@@ -81,5 +96,13 @@
 		<RuntimeIdentifier Condition="$(TargetFramework.Contains('-maccatalyst'))">maccatalyst-x64</RuntimeIdentifier>
 		<UseInterpreter Condition="$(TargetFramework.Contains('-android'))">True</UseInterpreter>
 	</PropertyGroup>
+
+	<ItemGroup>
+	  <_MauiCompileToAdd Remove="Components\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <_MauiXamlToRemove Remove="Components\**" />
+	</ItemGroup>
 
 </Project>

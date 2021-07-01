@@ -21,6 +21,8 @@ namespace maui_demo.ViewModels
         {
             _usgsService = usgsService;
             IsSitesEnabled = false;
+            IsSiteDataLoaded = false;
+            _riverData = new List<TimeSeries>();
         }
         public List<State> States
         {
@@ -36,7 +38,7 @@ namespace maui_demo.ViewModels
                 if(_selectedState != value)
                 {
                     _selectedState = value;
-                    Task.Run(async () => { GetStateSites(); });
+                    Task.Run(async () => { await GetStateSites(); });
                     OnPropertyChanged("SelectedState");
                 }
             }
@@ -65,7 +67,36 @@ namespace maui_demo.ViewModels
                 if (_selectedSite != value)
                 {
                     _selectedSite = value;
+                    Task.Run(async () => { await GetSiteInfo(); });
                     OnPropertyChanged("SelectedSite");
+                }
+            }
+        }
+
+        List<TimeSeries> _riverData;
+        public List<TimeSeries> RiverData
+        {
+            get { return _riverData; }
+            set
+            {
+                if (_riverData != value)
+                {
+                    _riverData = value;
+                    OnPropertyChanged("RiverData");
+                }
+            }
+        }
+
+        bool _isSiteDataLoaded;
+        public bool IsSiteDataLoaded
+        {
+            get { return _isSiteDataLoaded; }
+            set
+            {
+                if(_isSiteDataLoaded != value)
+                {
+                    _isSiteDataLoaded = value;
+                    OnPropertyChanged("IsSiteDataLoaded");
                 }
             }
         }
@@ -84,17 +115,28 @@ namespace maui_demo.ViewModels
             }
         }
 
-        public ICommand StateChangeEventHandler{ 
-            get{
-                if (_stateSelectedCommand == null)
-                    _stateSelectedCommand = new Command(GetStateSites);
-                return _stateSelectedCommand;
-            }
-        }
-        private async void GetStateSites(){
+        private async Task GetStateSites(){
             var sites = await _usgsService.GetSitesForState(_selectedState.Code);
-            StateSites = sites.Sites.sites;
+            StateSites = sites.Sites.sites.OrderBy(s => s.Name).ToList();
             IsSitesEnabled = true;
+        }
+
+        private async Task GetSiteInfo()
+        {
+            IsSiteDataLoaded = false;
+            RiverData = null;
+            var siteInfo = await _usgsService.GetSiteValues(_selectedSite.Number);
+            foreach (var value in siteInfo.Value.TimeSeries)
+            {
+                var sortedValues = value.Values[0].Value.OrderBy(b => b.DateTime).ToList();
+
+                if (sortedValues == null) return;
+                var riverValue = value.Values[0];
+
+                value.Variable.VariableName = value.Variable.VariableName.Split(',')[0];
+            }
+            RiverData = siteInfo.Value.TimeSeries;
+            IsSiteDataLoaded = true;
         }
 
         private List<State> BuildStateList()

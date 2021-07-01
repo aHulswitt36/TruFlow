@@ -9,11 +9,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Components", "Components\Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{13C678F2-21BD-4619-ADC0-C3B8E451942D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "maui-demo", "maui-demo\maui-demo\maui-demo.csproj", "{66C1A590-FEFC-4A02-9378-7BFADDFAFC00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "maui-demo", "maui-demo\maui-demo\maui-demo.csproj", "{66C1A590-FEFC-4A02-9378-7BFADDFAFC00}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "maui-demo.WinUI", "maui-demo\maui-demo.WinUI\maui-demo.WinUI.csproj", "{F6679607-1CAD-4289-AF61-997BA295D669}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "maui-blazor", "maui-blazor\maui-blazor\maui-blazor.csproj", "{E9506B63-2C71-4677-8D0E-A56F0E669FFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "maui-blazor", "maui-blazor\maui-blazor\maui-blazor.csproj", "{E9506B63-2C71-4677-8D0E-A56F0E669FFA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EF0BAC65-C0F6-462B-AC0B-EB1446C615FB} = {EF0BAC65-C0F6-462B-AC0B-EB1446C615FB}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "maui-blazor.WinUI", "maui-blazor\maui-blazor.WinUI\maui-blazor.WinUI.csproj", "{344DA91A-456B-44C3-925F-FC3C273DEB88}"
 EndProject

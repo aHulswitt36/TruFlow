@@ -1,4 +1,3 @@
-﻿using maui_blazor.Data;
 using Microsoft.AspNetCore.Components.WebView.Maui;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Maui;
@@ -26,7 +25,6 @@ namespace maui_blazor
                 .ConfigureServices(services =>
                 {
                     services.AddBlazorWebView();
-                    services.AddSingleton<WeatherForecastService>();
                 });
         }
     }

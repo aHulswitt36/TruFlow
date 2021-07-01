@@ -1,0 +1,30 @@
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="maui_demo.Components.River">
+    <Grid ColumnDefinitions="Auto, Auto">
+        <Grid.Resources>
+            <ResourceDictionary>
+                <DataTemplate x:Key="RiverGaugeTemplate">
+                    <StackLayout HorizontalOptions="Start"
+                                 Spacing="0"
+                                 VerticalOptions="End">
+                        <!--<Label Text="{Binding Variable.VariableName, Source}"/>
+                        <Label Text="{Binding Variable.Unit.UnitCode}"/>
+                        <Label Text="{Binding Values[0].Value[0].Value}"/>-->
+                        <Label Text="TEST" FontAttributes="Bold"/>
+                    </StackLayout>
+                </DataTemplate>
+            </ResourceDictionary>
+        </Grid.Resources>
+        <FlexLayout
+            Wrap="Wrap" Direction="Row" Margin="25"
+            JustifyContent="SpaceBetween"
+            AlignItems="Start"
+            AlignContent="Start"
+            BindableLayout.ItemTemplate="{StaticResource RiverGaugeTemplate}"
+            BindableLayout.ItemsSource="{Binding RiverData}">
+
+
+        </FlexLayout>
+    </Grid>
+</ContentView>

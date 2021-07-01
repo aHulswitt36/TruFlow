@@ -1,9 +1,12 @@
-﻿using Microsoft.Maui.Controls;
+using Microsoft.Maui;
+using Microsoft.Maui.Controls;
+using Microsoft.Maui.Controls.Xaml;
 using System;
 
 namespace maui_blazor
 {
-    public partial class MainPage : ContentPage
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class MainPage : ContentPage, IPage
     {
         public MainPage()
         {
