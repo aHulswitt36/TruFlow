@@ -4,7 +4,6 @@
 		<!-- iOS, Android, MacCatalyst -->
 		<TargetFrameworks>net6.0-ios;net6.0-android;net6.0-maccatalyst</TargetFrameworks>
 		<OutputType>Exe</OutputType>
-		<UseMaui>true</UseMaui>
 		<SingleProject>true</SingleProject>
 		<RootNamespace>maui_demo</RootNamespace>
 
@@ -62,6 +61,7 @@
 	  <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.0-preview.5.21301.5" />
 	  <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0-preview.5.21301.5" />
 	  <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0-preview.5.21301.5" />
+	  <PackageReference Include="Microsoft.Maui" Version="6.0.100-preview.5.798" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -96,7 +96,9 @@
 		<RuntimeIdentifier Condition="$(TargetFramework.Contains('-maccatalyst'))">maccatalyst-x64</RuntimeIdentifier>
 		<UseInterpreter Condition="$(TargetFramework.Contains('-android'))">True</UseInterpreter>
 	</PropertyGroup>
-
+  <ItemGroup Condition="$(TargetFramework.Contains('-android'))">
+    <AndroidEnvironment Include="Android\AndroidEnvironment.txt" />
+  </ItemGroup>
 	<ItemGroup>
 	  <_MauiCompileToAdd Remove="Components\**" />
 	</ItemGroup>

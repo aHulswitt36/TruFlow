@@ -10,6 +10,7 @@ using Infrastructure.Models;
 using System.Runtime.CompilerServices;
 using maui_demo.ViewModels;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Maui.Controls.Compatibility;
 
 namespace maui_demo
 {
@@ -19,8 +20,9 @@ namespace maui_demo
         private readonly IServiceProvider _services;
         public MainPage(IServiceProvider services)
         {
-            InitializeComponent();
             _services = services;
+
+            InitializeComponent();
         }
 
         int count = 0;
