@@ -31,3 +31,11 @@ yarn-error.log*
 /BlazorMaui/maui-blazor/maui-blazor/obj
 /BlazorMaui/maui-blazor/maui-blazor.WinUI/obj
 /BlazorMaui/maui-blazor/maui-blazor/bin
+/BlazorMaui/MauiBlazor/MauiBlazor/bin
+/BlazorMaui/MauiBlazor/MauiBlazor/obj
+/BlazorMaui/MauiBlazor/MauiBlazor.WinUI/bin
+/BlazorMaui/MauiBlazor/MauiBlazor.WinUI/obj
+/BlazorMaui/MauiDemo/MauiDemo/bin
+/BlazorMaui/MauiDemo/MauiDemo/obj
+/BlazorMaui/MauiDemo/MauiDemo.WinUI/obj
+/BlazorMaui/MauiDemo/MauiDemo.WinUI/bin

@@ -5,7 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="Pages\Index.razor" />
+    <Compile Remove="Pages\**" />
+    <Content Remove="Pages\**" />
+    <EmbeddedResource Remove="Pages\**" />
+    <None Remove="Pages\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Remove="Shared\MainLayout.razor" />
     <Content Remove="Shared\NavMenu.razor" />
   </ItemGroup>
@@ -22,10 +28,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Components\Components.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Pages\" />
   </ItemGroup>
 
 </Project>
