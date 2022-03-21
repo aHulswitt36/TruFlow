@@ -1,0 +1,18 @@
+
+
+<SpinLoader IsLoading="@isLoading">
+    <LoadingTemplate>
+        <Circle Color="#000000" Center="true"/>
+    </LoadingTemplate>
+    <ContentTemplate>
+        <h3>@riverData[0].SourceInfo.SiteName</h3>
+		<ul>
+			@foreach(var value in riverData)
+			{
+				<li>
+					<h3><strong>@value.Variable.VariableName (@value.Variable.Unit.UnitCode): </strong>@value.Values[0].Value[0].Value</h3>
+				</li>
+			}
+		</ul>
+    </ContentTemplate>
+</SpinLoader>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiDemoPreview12.Rivers"
+             xmlns:viewmodel="clr-namespace:MauiDemoPreview12.ViewModels"
+             xmlns:converts="clr-namespace:MauiDemoPreview12.Converters"
+             BackgroundColor="{DynamicResource PrimaryColor}">
+    <ScrollView Padding="{OnPlatform iOS='30,60,30,30', Android='30'}">
+        <StackLayout>
+            <Grid RowSpacing="25" RowDefinitions="Auto,Auto,Auto,Auto,*">
+                <Picker
+                        x:Name="ddlState"
+                        Title="Select a State"
+                        ItemsSource="{Binding States}"
+                        ItemDisplayBinding="{Binding Name}"
+                        SelectedItem="{Binding SelectedState}">
+                </Picker>
+            </Grid>
+
+            <Grid IsVisible="{Binding IsSitesEnabled}">
+                <CollectionView x:Name="StateSites" ItemsSource="{Binding StateSites}">
+                    <CollectionView.ItemsLayout>
+                        <GridItemsLayout Orientation="Vertical" Span="3" VerticalItemSpacing="5" HorizontalItemSpacing="5"/>
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame BorderColor="{DynamicResource SecondaryColor}" CornerRadius="5" Padding="1" HasShadow="True">
+                                <Grid BackgroundColor="{DynamicResource PrimaryColor}" Padding="10" RowSpacing="50" RowDefinitions="100, *" WidthRequest="225" HeightRequest="125">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="150"/>
+                                        <ColumnDefinition Width="50"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.GestureRecognizers>
+                                        <TapGestureRecognizer Command="{Binding BindingContext.OpenRiverCommand, Source={x:Reference StateSites}}" CommandParameter="{Binding .}" />
+                                    </Grid.GestureRecognizers>
+                                    <Label TextColor="{DynamicResource SecondaryColor}" Grid.Column="0" Text="{Binding RiverName}" HorizontalOptions="Start" VerticalOptions="Start" LineBreakMode="WordWrap" FontAttributes="Bold"/>
+                                    <Label TextColor="{DynamicResource SecondaryColor}" Grid.Column="0" Text="{Binding Location}" HorizontalOptions="Start" VerticalOptions="End" LineBreakMode="WordWrap"/>
+                                    <Label Grid.Column="1" IsVisible="{Binding IsFavorite, Converter={converts:InverseBoolConverter}}" HorizontalOptions="End" VerticalOptions="Start" FontFamily="Material Icons" Text="&#xe83a;" FontSize="20" TextColor="{DynamicResource SecondaryColor}">
+                                        <Label.GestureRecognizers>
+                                            <!--<TapGestureRecognizer BindingContext="{Binding Source={x:Reference this}, Path=BindingContext}" Tapped="{Binding SetFavorite}" CommandParameter="{Binding .}"/>-->
+                                            <TapGestureRecognizer Command="{Binding BindingContext.SetFavoriteCommand, Source={x:Reference StateSites}}" CommandParameter="{Binding .}"/>
+                                        </Label.GestureRecognizers>
+                                    </Label>
+                                    <Label Grid.Column="1" IsVisible="{Binding IsFavorite}" HorizontalOptions="End" VerticalOptions="Start" FontFamily="Material Icons" Text="&#xe838;" FontSize="20" TextColor="Yellow">
+                                        <Label.GestureRecognizers>
+                                            <!--<TapGestureRecognizer BindingContext="{Binding Source={x:Reference this}, Path=BindingContext}" Tapped="{Binding SetFavorite}" CommandParameter="{Binding .}"/>-->
+                                            <TapGestureRecognizer Command="{Binding BindingContext.UnsetFavoriteCommand, Source={x:Reference StateSites}}" CommandParameter="{Binding .}"/>
+                                        </Label.GestureRecognizers>
+                                    </Label>
+                                </Grid>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </Grid>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
