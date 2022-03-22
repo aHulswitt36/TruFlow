@@ -120,6 +120,8 @@ namespace MauiDemoPreview12.Services
             => _services.GetService<T>();
 
         private BaseViewModel? GetPageViewModelBase(Page? p)
-            => p?.BindingContext as BaseViewModel;
+        {
+            return p?.BindingContext as BaseViewModel;
+        }
     }
 }

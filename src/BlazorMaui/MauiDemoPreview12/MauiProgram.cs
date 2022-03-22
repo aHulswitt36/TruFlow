@@ -6,6 +6,9 @@ using MauiDemoPreview12.ViewModels;
 //using MauiDemoPreview12.Pages;
 using Microsoft.Maui.LifecycleEvents;
 using MauiDemoPreview12.Services;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
 
 namespace MauiDemoPreview12
 {
@@ -20,6 +23,14 @@ namespace MauiDemoPreview12
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("MaterialIcons-Regular.ttf", "Material Icons");
+                })
+                .ConfigureLifecycleEvents(events =>
+                {
+#if ANDROID
+                    events.AddAndroid(android => android
+                        .OnStart((activity) => AppCenter.Start("android={10c0932d-1e7f-4085-a020-ec34c69ef455};",typeof(Analytics),typeof(Crashes)))
+                    );
+#endif
                 });
             var services = builder.Services;
 
@@ -33,10 +44,10 @@ namespace MauiDemoPreview12
             services.AddSingleton(settings.UsgsSettings);
             services.AddComponentLibrary("https://waterservices.usgs.gov/nwis/");
             services.AddTransient<MainPage>();
-            services.AddTransient<Rivers>();
-            services.AddTransient<RiversViewModel>();
             services.AddTransient<River>();
             services.AddTransient<RiverViewModel>();
+            services.AddTransient<Rivers>();
+            services.AddTransient<RiversViewModel>();
             //services.AddTransient(serviceType: typeof(Page), implementationType: typeof(CustomNavigationPage));
 
             services.AddSingleton<INavigationService, NavigationService>();

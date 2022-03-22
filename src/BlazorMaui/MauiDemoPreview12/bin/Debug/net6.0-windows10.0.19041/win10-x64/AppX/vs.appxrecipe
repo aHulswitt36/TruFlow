@@ -29,29 +29,29 @@
     <AppXManifest Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\bin\Debug\net6.0-windows10.0.19041\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-03-21T15:54:23.615</Modified>
+      <Modified>2022-03-21T19:18:26.396</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\bin\Debug\net6.0-windows10.0.19041\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-03-21T15:54:23.441</Modified>
+      <Modified>2022-03-21T19:18:26.211</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\bin\Debug\net6.0-windows10.0.19041\win10-x64\MauiDemoPreview12.runtimeconfig.json">
       <PackagePath>MauiDemoPreview12.runtimeconfig.json</PackagePath>
-      <Modified>2022-03-21T15:48:45.618</Modified>
+      <Modified>2022-03-21T18:39:35.685</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\bin\Debug\net6.0-windows10.0.19041\win10-x64\MauiDemoPreview12.dll">
       <PackagePath>MauiDemoPreview12.dll</PackagePath>
-      <Modified>2022-03-21T15:54:22.871</Modified>
+      <Modified>2022-03-21T19:18:25.647</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\apphost.exe">
       <PackagePath>MauiDemoPreview12.exe</PackagePath>
-      <Modified>2022-03-21T15:54:22.876</Modified>
+      <Modified>2022-03-21T19:18:25.654</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\bin\Debug\net6.0-windows10.0.19041\win10-x64\MauiDemoPreview12.deps.json">
       <PackagePath>MauiDemoPreview12.deps.json</PackagePath>
-      <Modified>2022-03-21T15:48:45.521</Modified>
+      <Modified>2022-03-21T18:39:35.601</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aarro\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.2\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -961,6 +961,10 @@
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2022-02-08T08:02:46.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aarro\.nuget\packages\microsoft.appcenter\4.5.0\lib\net5.0-windows10.0.17763.0\Microsoft.AppCenter.dll">
+      <PackagePath>Microsoft.AppCenter.dll</PackagePath>
+      <Modified>2021-12-22T13:37:22.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aarro\.nuget\packages\microsoft.extensions.configuration\6.0.2-mauipre.1.22102.15\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
       <Modified>2022-02-03T03:14:36.000</Modified>
@@ -1009,6 +1013,10 @@
       <PackagePath>Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll</PackagePath>
       <Modified>2022-03-05T14:54:10.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aarro\.nuget\packages\microsoft.win32.systemevents\5.0.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll">
+      <PackagePath>Microsoft.Win32.SystemEvents.dll</PackagePath>
+      <Modified>2020-10-19T18:52:12.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aarro\.nuget\packages\microsoft.windowsappsdk\1.0.0\lib\net5.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll">
       <PackagePath>Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
       <Modified>2021-11-16T04:57:36.000</Modified>
@@ -1045,13 +1053,61 @@
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
       <Modified>2021-03-17T20:03:36.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aarro\.nuget\packages\sqlitepclraw.bundle_green\2.0.2\lib\netcoreapp3.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+      <Modified>2019-11-01T17:24:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aarro\.nuget\packages\sqlitepclraw.bundle_green\2.0.2\lib\netcoreapp3.0\SQLitePCLRaw.nativelibrary.dll">
+      <PackagePath>SQLitePCLRaw.nativelibrary.dll</PackagePath>
+      <Modified>2019-11-01T17:23:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aarro\.nuget\packages\sqlitepclraw.core\2.0.2\lib\netstandard2.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+      <Modified>2019-11-01T17:23:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aarro\.nuget\packages\sqlitepclraw.provider.dynamic_cdecl\2.0.2\lib\netstandard2.0\SQLitePCLRaw.provider.dynamic_cdecl.dll">
+      <PackagePath>SQLitePCLRaw.provider.dynamic_cdecl.dll</PackagePath>
+      <Modified>2019-11-01T17:23:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aarro\.nuget\packages\system.codedom\5.0.0\lib\netstandard2.0\System.CodeDom.dll">
+      <PackagePath>System.CodeDom.dll</PackagePath>
+      <Modified>2020-10-19T18:48:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aarro\.nuget\packages\system.configuration.configurationmanager\5.0.0\lib\netstandard2.0\System.Configuration.ConfigurationManager.dll">
+      <PackagePath>System.Configuration.ConfigurationManager.dll</PackagePath>
+      <Modified>2020-10-19T18:52:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aarro\.nuget\packages\system.drawing.common\5.0.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll">
+      <PackagePath>System.Drawing.Common.dll</PackagePath>
+      <Modified>2020-10-19T18:53:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aarro\.nuget\packages\system.management\5.0.0\runtimes\win\lib\netcoreapp2.0\System.Management.dll">
+      <PackagePath>System.Management.dll</PackagePath>
+      <Modified>2020-10-19T18:51:10.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aarro\.nuget\packages\system.runtime.compilerservices.unsafe\6.0.2-mauipre.1.22102.15\lib\net6.0\System.Runtime.CompilerServices.Unsafe.dll">
       <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
       <Modified>2022-02-03T02:58:10.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aarro\.nuget\packages\system.security.cryptography.protecteddata\5.0.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll">
+      <PackagePath>System.Security.Cryptography.ProtectedData.dll</PackagePath>
+      <Modified>2020-10-19T18:49:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aarro\.nuget\packages\system.security.permissions\5.0.0\lib\net5.0\System.Security.Permissions.dll">
+      <PackagePath>System.Security.Permissions.dll</PackagePath>
+      <Modified>2020-10-19T18:52:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aarro\.nuget\packages\system.windows.extensions\5.0.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll">
+      <PackagePath>System.Windows.Extensions.dll</PackagePath>
+      <Modified>2020-10-19T18:53:36.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aarro\.nuget\packages\microsoft.windowsappsdk\1.0.0\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2021-11-16T04:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aarro\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.0.2\runtimes\win-x64\native\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+      <Modified>2019-08-15T18:13:54.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aarro\.nuget\packages\microsoft.graphics.win2d\1.0.0.30\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
@@ -1059,31 +1115,31 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\Infrastructure\bin\Debug\net6.0\Infrastructure.dll">
       <PackagePath>Infrastructure.dll</PackagePath>
-      <Modified>2022-03-21T13:33:29.532</Modified>
+      <Modified>2022-03-21T18:39:31.250</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\Platforms\Windows\App.xbf">
       <PackagePath>Platforms\Windows\App.xbf</PackagePath>
-      <Modified>2022-03-21T15:54:22.765</Modified>
+      <Modified>2022-03-21T19:18:25.540</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-100.png">
       <PackagePath>appiconfgSplashScreen.scale-100.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.052</Modified>
+      <Modified>2022-03-21T18:39:34.311</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-125.png">
       <PackagePath>appiconfgSplashScreen.scale-125.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.061</Modified>
+      <Modified>2022-03-21T18:39:34.321</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-150.png">
       <PackagePath>appiconfgSplashScreen.scale-150.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.077</Modified>
+      <Modified>2022-03-21T18:39:34.336</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-200.png">
       <PackagePath>appiconfgSplashScreen.scale-200.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.096</Modified>
+      <Modified>2022-03-21T18:39:34.357</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-400.png">
       <PackagePath>appiconfgSplashScreen.scale-400.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.170</Modified>
+      <Modified>2022-03-21T18:39:34.438</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\f\MaterialIcons-Regular.ttf">
       <PackagePath>MaterialIcons-Regular.ttf</PackagePath>
@@ -1095,203 +1151,203 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.303</Modified>
+      <Modified>2022-03-21T18:39:34.603</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.312</Modified>
+      <Modified>2022-03-21T18:39:34.612</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.322</Modified>
+      <Modified>2022-03-21T18:39:34.619</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.338</Modified>
+      <Modified>2022-03-21T18:39:34.631</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.379</Modified>
+      <Modified>2022-03-21T18:39:34.675</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.186</Modified>
+      <Modified>2022-03-21T18:39:34.478</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.187</Modified>
+      <Modified>2022-03-21T18:39:34.480</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.190</Modified>
+      <Modified>2022-03-21T18:39:34.483</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.192</Modified>
+      <Modified>2022-03-21T18:39:34.486</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.195</Modified>
+      <Modified>2022-03-21T18:39:34.490</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.224</Modified>
+      <Modified>2022-03-21T18:39:34.522</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.228</Modified>
+      <Modified>2022-03-21T18:39:34.526</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.232</Modified>
+      <Modified>2022-03-21T18:39:34.530</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.237</Modified>
+      <Modified>2022-03-21T18:39:34.536</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.247</Modified>
+      <Modified>2022-03-21T18:39:34.547</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.209</Modified>
+      <Modified>2022-03-21T18:39:34.506</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.211</Modified>
+      <Modified>2022-03-21T18:39:34.509</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.213</Modified>
+      <Modified>2022-03-21T18:39:34.511</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.216</Modified>
+      <Modified>2022-03-21T18:39:34.514</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.221</Modified>
+      <Modified>2022-03-21T18:39:34.519</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.197</Modified>
+      <Modified>2022-03-21T18:39:34.493</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.199</Modified>
+      <Modified>2022-03-21T18:39:34.496</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.201</Modified>
+      <Modified>2022-03-21T18:39:34.498</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.203</Modified>
+      <Modified>2022-03-21T18:39:34.501</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.207</Modified>
+      <Modified>2022-03-21T18:39:34.504</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.251</Modified>
+      <Modified>2022-03-21T18:39:34.552</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.256</Modified>
+      <Modified>2022-03-21T18:39:34.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.261</Modified>
+      <Modified>2022-03-21T18:39:34.567</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.271</Modified>
+      <Modified>2022-03-21T18:39:34.575</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.297</Modified>
+      <Modified>2022-03-21T18:39:34.597</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.196</Modified>
+      <Modified>2022-03-21T18:39:34.514</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.218</Modified>
+      <Modified>2022-03-21T18:39:34.536</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.245</Modified>
+      <Modified>2022-03-21T18:39:34.570</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.294</Modified>
+      <Modified>2022-03-21T18:39:34.618</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.440</Modified>
+      <Modified>2022-03-21T18:39:34.764</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\empty_star.scale-100.png">
       <PackagePath>empty_star.scale-100.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.176</Modified>
+      <Modified>2022-03-21T18:39:34.469</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\empty_star.scale-125.png">
       <PackagePath>empty_star.scale-125.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.177</Modified>
+      <Modified>2022-03-21T18:39:34.470</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\empty_star.scale-150.png">
       <PackagePath>empty_star.scale-150.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.180</Modified>
+      <Modified>2022-03-21T18:39:34.470</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\empty_star.scale-200.png">
       <PackagePath>empty_star.scale-200.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.181</Modified>
+      <Modified>2022-03-21T18:39:34.471</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\empty_star.scale-400.png">
       <PackagePath>empty_star.scale-400.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.182</Modified>
+      <Modified>2022-03-21T18:39:34.472</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\star.scale-100.png">
       <PackagePath>star.scale-100.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.176</Modified>
+      <Modified>2022-03-21T18:39:34.468</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\star.scale-125.png">
       <PackagePath>star.scale-125.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.180</Modified>
+      <Modified>2022-03-21T18:39:34.470</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\star.scale-150.png">
       <PackagePath>star.scale-150.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.181</Modified>
+      <Modified>2022-03-21T18:39:34.471</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\star.scale-200.png">
       <PackagePath>star.scale-200.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.182</Modified>
+      <Modified>2022-03-21T18:39:34.472</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\star.scale-400.png">
       <PackagePath>star.scale-400.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.184</Modified>
+      <Modified>2022-03-21T18:39:34.475</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\white_star.scale-100.png">
       <PackagePath>white_star.scale-100.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.176</Modified>
+      <Modified>2022-03-21T18:39:34.472</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\white_star.scale-125.png">
       <PackagePath>white_star.scale-125.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.176</Modified>
+      <Modified>2022-03-21T18:39:34.473</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\white_star.scale-150.png">
       <PackagePath>white_star.scale-150.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.180</Modified>
+      <Modified>2022-03-21T18:39:34.474</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\white_star.scale-200.png">
       <PackagePath>white_star.scale-200.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.181</Modified>
+      <Modified>2022-03-21T18:39:34.474</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\TruFlow\src\BlazorMaui\MauiDemoPreview12\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\white_star.scale-400.png">
       <PackagePath>white_star.scale-400.png</PackagePath>
-      <Modified>2022-03-16T19:48:52.181</Modified>
+      <Modified>2022-03-21T18:39:34.475</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\6.0.200-preview.14.5099\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

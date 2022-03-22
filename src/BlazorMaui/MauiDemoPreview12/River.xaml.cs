@@ -1,9 +1,15 @@
-namespace MauiDemoPreview12;
+using MauiDemoPreview12.ViewModels;
 
-public partial class River : ContentPage
+namespace MauiDemoPreview12
 {
-	public River()
-	{
-		InitializeComponent();
-	}
+    public partial class River : ContentPage
+    {
+        public River(RiverViewModel vm)
+        {
+            BindingContext = vm;
+            InitializeComponent();
+
+            NavigationPage.SetHasNavigationBar(this, false);
+        }
+    }
 }

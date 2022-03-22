@@ -11,11 +11,11 @@
           "lib/net6.0-android31.0/GoogleGson.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
@@ -24,10 +24,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
@@ -36,11 +36,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {}
@@ -52,7 +52,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
@@ -105,14 +105,14 @@
           "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Options": "6.0.2-mauipre.1.22102.15",
-          "System.Diagnostics.DiagnosticSource": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
@@ -121,7 +121,7 @@
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
@@ -133,11 +133,11 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Options/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
@@ -146,10 +146,10 @@
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Primitives/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Primitives.dll": {}
@@ -282,10 +282,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Dependencies/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.200-preview.13.935",
+          "Microsoft.Maui.Graphics": "6.0.200-preview.14.1092",
           "Xamarin.Android.Glide": "4.12.0.2",
           "Xamarin.AndroidX.Browser": "1.3.0.8",
           "Xamarin.AndroidX.Legacy.Support.V4": "1.0.0.10",
@@ -312,16 +312,16 @@
           "lib/net6.0-android30.0/Microsoft.Maui.Essentials.dll": {}
         }
       },
-      "Microsoft.Maui.Extensions/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Extensions/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration": "6.0.1",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.200-preview.13.935": {
+      "Microsoft.Maui.Graphics/6.0.200-preview.14.1092": {
         "type": "package",
         "compile": {
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
@@ -375,10 +375,10 @@
           "lib/netstandard2.0/System.CodeDom.dll": {}
         }
       },
-      "System.Diagnostics.DiagnosticSource/6.0.2-mauipre.1.22102.15": {
+      "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {}
@@ -390,7 +390,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/6.0.2-mauipre.1.22102.15": {
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
@@ -1437,11 +1437,11 @@
           "lib/net6.0-android31.0/GoogleGson.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
@@ -1450,10 +1450,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
@@ -1462,11 +1462,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {}
@@ -1478,7 +1478,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
@@ -1531,14 +1531,14 @@
           "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Options": "6.0.2-mauipre.1.22102.15",
-          "System.Diagnostics.DiagnosticSource": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
@@ -1547,7 +1547,7 @@
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
@@ -1559,11 +1559,11 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Options/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
@@ -1572,10 +1572,10 @@
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Primitives/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Primitives.dll": {}
@@ -1708,10 +1708,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Dependencies/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.200-preview.13.935",
+          "Microsoft.Maui.Graphics": "6.0.200-preview.14.1092",
           "Xamarin.Android.Glide": "4.12.0.2",
           "Xamarin.AndroidX.Browser": "1.3.0.8",
           "Xamarin.AndroidX.Legacy.Support.V4": "1.0.0.10",
@@ -1738,16 +1738,16 @@
           "lib/net6.0-android30.0/Microsoft.Maui.Essentials.dll": {}
         }
       },
-      "Microsoft.Maui.Extensions/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Extensions/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration": "6.0.1",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.200-preview.13.935": {
+      "Microsoft.Maui.Graphics/6.0.200-preview.14.1092": {
         "type": "package",
         "compile": {
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
@@ -1801,10 +1801,10 @@
           "lib/netstandard2.0/System.CodeDom.dll": {}
         }
       },
-      "System.Diagnostics.DiagnosticSource/6.0.2-mauipre.1.22102.15": {
+      "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {}
@@ -1816,7 +1816,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/6.0.2-mauipre.1.22102.15": {
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
@@ -2863,11 +2863,11 @@
           "lib/net6.0-android31.0/GoogleGson.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
@@ -2876,10 +2876,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
@@ -2888,11 +2888,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {}
@@ -2904,7 +2904,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
@@ -2957,14 +2957,14 @@
           "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Options": "6.0.2-mauipre.1.22102.15",
-          "System.Diagnostics.DiagnosticSource": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
@@ -2973,7 +2973,7 @@
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
@@ -2985,11 +2985,11 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Options/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
@@ -2998,10 +2998,10 @@
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Primitives/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Primitives.dll": {}
@@ -3134,10 +3134,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Dependencies/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.200-preview.13.935",
+          "Microsoft.Maui.Graphics": "6.0.200-preview.14.1092",
           "Xamarin.Android.Glide": "4.12.0.2",
           "Xamarin.AndroidX.Browser": "1.3.0.8",
           "Xamarin.AndroidX.Legacy.Support.V4": "1.0.0.10",
@@ -3164,16 +3164,16 @@
           "lib/net6.0-android30.0/Microsoft.Maui.Essentials.dll": {}
         }
       },
-      "Microsoft.Maui.Extensions/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Extensions/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration": "6.0.1",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.200-preview.13.935": {
+      "Microsoft.Maui.Graphics/6.0.200-preview.14.1092": {
         "type": "package",
         "compile": {
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
@@ -3227,10 +3227,10 @@
           "lib/netstandard2.0/System.CodeDom.dll": {}
         }
       },
-      "System.Diagnostics.DiagnosticSource/6.0.2-mauipre.1.22102.15": {
+      "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {}
@@ -3242,7 +3242,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/6.0.2-mauipre.1.22102.15": {
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
@@ -4289,11 +4289,11 @@
           "lib/net6.0-android31.0/GoogleGson.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
@@ -4302,10 +4302,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
@@ -4314,11 +4314,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {}
@@ -4330,7 +4330,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
@@ -4383,14 +4383,14 @@
           "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Options": "6.0.2-mauipre.1.22102.15",
-          "System.Diagnostics.DiagnosticSource": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
@@ -4399,7 +4399,7 @@
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
@@ -4411,11 +4411,11 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Options/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
@@ -4424,10 +4424,10 @@
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Primitives/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Primitives.dll": {}
@@ -4560,10 +4560,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Dependencies/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.200-preview.13.935",
+          "Microsoft.Maui.Graphics": "6.0.200-preview.14.1092",
           "Xamarin.Android.Glide": "4.12.0.2",
           "Xamarin.AndroidX.Browser": "1.3.0.8",
           "Xamarin.AndroidX.Legacy.Support.V4": "1.0.0.10",
@@ -4590,16 +4590,16 @@
           "lib/net6.0-android30.0/Microsoft.Maui.Essentials.dll": {}
         }
       },
-      "Microsoft.Maui.Extensions/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Extensions/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration": "6.0.1",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.200-preview.13.935": {
+      "Microsoft.Maui.Graphics/6.0.200-preview.14.1092": {
         "type": "package",
         "compile": {
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
@@ -4653,10 +4653,10 @@
           "lib/netstandard2.0/System.CodeDom.dll": {}
         }
       },
-      "System.Diagnostics.DiagnosticSource/6.0.2-mauipre.1.22102.15": {
+      "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {}
@@ -4668,7 +4668,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/6.0.2-mauipre.1.22102.15": {
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
@@ -5715,11 +5715,11 @@
           "lib/net6.0-android31.0/GoogleGson.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
@@ -5728,10 +5728,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
@@ -5740,11 +5740,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {}
@@ -5756,7 +5756,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
@@ -5809,14 +5809,14 @@
           "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Options": "6.0.2-mauipre.1.22102.15",
-          "System.Diagnostics.DiagnosticSource": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
@@ -5825,7 +5825,7 @@
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
@@ -5837,11 +5837,11 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Options/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
@@ -5850,10 +5850,10 @@
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Primitives/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Primitives.dll": {}
@@ -5986,10 +5986,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Dependencies/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.200-preview.13.935",
+          "Microsoft.Maui.Graphics": "6.0.200-preview.14.1092",
           "Xamarin.Android.Glide": "4.12.0.2",
           "Xamarin.AndroidX.Browser": "1.3.0.8",
           "Xamarin.AndroidX.Legacy.Support.V4": "1.0.0.10",
@@ -6016,16 +6016,16 @@
           "lib/net6.0-android30.0/Microsoft.Maui.Essentials.dll": {}
         }
       },
-      "Microsoft.Maui.Extensions/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Extensions/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration": "6.0.1",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.200-preview.13.935": {
+      "Microsoft.Maui.Graphics/6.0.200-preview.14.1092": {
         "type": "package",
         "compile": {
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
@@ -6079,10 +6079,10 @@
           "lib/netstandard2.0/System.CodeDom.dll": {}
         }
       },
-      "System.Diagnostics.DiagnosticSource/6.0.2-mauipre.1.22102.15": {
+      "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {}
@@ -6094,7 +6094,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/6.0.2-mauipre.1.22102.15": {
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
@@ -7141,11 +7141,11 @@
           "lib/net6.0-android31.0/GoogleGson.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
@@ -7154,10 +7154,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
@@ -7166,11 +7166,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {}
@@ -7182,7 +7182,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
@@ -7235,14 +7235,14 @@
           "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Options": "6.0.2-mauipre.1.22102.15",
-          "System.Diagnostics.DiagnosticSource": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
@@ -7251,7 +7251,7 @@
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
@@ -7263,11 +7263,11 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Options/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
@@ -7276,10 +7276,10 @@
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Primitives/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Primitives.dll": {}
@@ -7412,10 +7412,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Dependencies/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.200-preview.13.935",
+          "Microsoft.Maui.Graphics": "6.0.200-preview.14.1092",
           "Xamarin.Android.Glide": "4.12.0.2",
           "Xamarin.AndroidX.Browser": "1.3.0.8",
           "Xamarin.AndroidX.Legacy.Support.V4": "1.0.0.10",
@@ -7442,16 +7442,16 @@
           "lib/net6.0-android30.0/Microsoft.Maui.Essentials.dll": {}
         }
       },
-      "Microsoft.Maui.Extensions/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Extensions/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration": "6.0.1",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.200-preview.13.935": {
+      "Microsoft.Maui.Graphics/6.0.200-preview.14.1092": {
         "type": "package",
         "compile": {
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
@@ -7505,10 +7505,10 @@
           "lib/netstandard2.0/System.CodeDom.dll": {}
         }
       },
-      "System.Diagnostics.DiagnosticSource/6.0.2-mauipre.1.22102.15": {
+      "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {}
@@ -7520,7 +7520,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/6.0.2-mauipre.1.22102.15": {
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
@@ -8567,11 +8567,11 @@
           "lib/net6.0-android31.0/GoogleGson.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
@@ -8580,10 +8580,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
@@ -8592,11 +8592,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {}
@@ -8608,7 +8608,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
@@ -8661,14 +8661,14 @@
           "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Options": "6.0.2-mauipre.1.22102.15",
-          "System.Diagnostics.DiagnosticSource": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
@@ -8677,7 +8677,7 @@
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
@@ -8689,11 +8689,11 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Options/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
@@ -8702,10 +8702,10 @@
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Primitives/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Primitives.dll": {}
@@ -8838,10 +8838,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Dependencies/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.200-preview.13.935",
+          "Microsoft.Maui.Graphics": "6.0.200-preview.14.1092",
           "Xamarin.Android.Glide": "4.12.0.2",
           "Xamarin.AndroidX.Browser": "1.3.0.8",
           "Xamarin.AndroidX.Legacy.Support.V4": "1.0.0.10",
@@ -8868,16 +8868,16 @@
           "lib/net6.0-android30.0/Microsoft.Maui.Essentials.dll": {}
         }
       },
-      "Microsoft.Maui.Extensions/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Extensions/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration": "6.0.1",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.200-preview.13.935": {
+      "Microsoft.Maui.Graphics/6.0.200-preview.14.1092": {
         "type": "package",
         "compile": {
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
@@ -8931,10 +8931,10 @@
           "lib/netstandard2.0/System.CodeDom.dll": {}
         }
       },
-      "System.Diagnostics.DiagnosticSource/6.0.2-mauipre.1.22102.15": {
+      "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {}
@@ -8946,7 +8946,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/6.0.2-mauipre.1.22102.15": {
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
@@ -9984,11 +9984,11 @@
       }
     },
     "net6.0-ios15.2": {
-      "Microsoft.Extensions.Configuration/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
@@ -9997,10 +9997,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
@@ -10009,11 +10009,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {}
@@ -10025,7 +10025,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
@@ -10078,14 +10078,14 @@
           "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Options": "6.0.2-mauipre.1.22102.15",
-          "System.Diagnostics.DiagnosticSource": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
@@ -10094,7 +10094,7 @@
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
@@ -10106,11 +10106,11 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Options/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
@@ -10119,10 +10119,10 @@
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Primitives/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Primitives.dll": {}
@@ -10333,10 +10333,11 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Dependencies/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.200-preview.13.935"
+          "Microsoft.Maui.Graphics": "6.0.200-preview.14.1092",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
       "Microsoft.Maui.Essentials/6.0.100-preview.5.794": {
@@ -10351,16 +10352,17 @@
           "lib/net6.0-ios13.6/Microsoft.Maui.Essentials.dll": {}
         }
       },
-      "Microsoft.Maui.Extensions/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Extensions/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration": "6.0.1",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.200-preview.13.935": {
+      "Microsoft.Maui.Graphics/6.0.200-preview.14.1092": {
         "type": "package",
         "compile": {
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
@@ -10414,10 +10416,10 @@
           "lib/netstandard2.0/System.CodeDom.dll": {}
         }
       },
-      "System.Diagnostics.DiagnosticSource/6.0.2-mauipre.1.22102.15": {
+      "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {}
@@ -10429,7 +10431,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/6.0.2-mauipre.1.22102.15": {
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
@@ -10439,6 +10441,12 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {}
         }
       },
       "Infrastructure/1.0.0": {
@@ -10457,11 +10465,11 @@
       }
     },
     "net6.0-ios15.2/android-arm": {
-      "Microsoft.Extensions.Configuration/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
@@ -10470,10 +10478,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
@@ -10482,11 +10490,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {}
@@ -10498,7 +10506,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
@@ -10551,14 +10559,14 @@
           "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Options": "6.0.2-mauipre.1.22102.15",
-          "System.Diagnostics.DiagnosticSource": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
@@ -10567,7 +10575,7 @@
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
@@ -10579,11 +10587,11 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Options/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
@@ -10592,10 +10600,10 @@
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Primitives/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Primitives.dll": {}
@@ -10806,10 +10814,11 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Dependencies/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.200-preview.13.935"
+          "Microsoft.Maui.Graphics": "6.0.200-preview.14.1092",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
       "Microsoft.Maui.Essentials/6.0.100-preview.5.794": {
@@ -10824,16 +10833,17 @@
           "lib/net6.0-ios13.6/Microsoft.Maui.Essentials.dll": {}
         }
       },
-      "Microsoft.Maui.Extensions/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Extensions/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration": "6.0.1",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.200-preview.13.935": {
+      "Microsoft.Maui.Graphics/6.0.200-preview.14.1092": {
         "type": "package",
         "compile": {
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
@@ -10887,10 +10897,10 @@
           "lib/netstandard2.0/System.CodeDom.dll": {}
         }
       },
-      "System.Diagnostics.DiagnosticSource/6.0.2-mauipre.1.22102.15": {
+      "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {}
@@ -10902,7 +10912,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/6.0.2-mauipre.1.22102.15": {
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
@@ -10912,6 +10922,12 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {}
         }
       },
       "Infrastructure/1.0.0": {
@@ -10930,11 +10946,11 @@
       }
     },
     "net6.0-ios15.2/android-arm64": {
-      "Microsoft.Extensions.Configuration/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
@@ -10943,10 +10959,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
@@ -10955,11 +10971,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {}
@@ -10971,7 +10987,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
@@ -11024,14 +11040,14 @@
           "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Options": "6.0.2-mauipre.1.22102.15",
-          "System.Diagnostics.DiagnosticSource": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
@@ -11040,7 +11056,7 @@
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
@@ -11052,11 +11068,11 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Options/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
@@ -11065,10 +11081,10 @@
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Primitives/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Primitives.dll": {}
@@ -11279,10 +11295,11 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Dependencies/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.200-preview.13.935"
+          "Microsoft.Maui.Graphics": "6.0.200-preview.14.1092",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
       "Microsoft.Maui.Essentials/6.0.100-preview.5.794": {
@@ -11297,16 +11314,17 @@
           "lib/net6.0-ios13.6/Microsoft.Maui.Essentials.dll": {}
         }
       },
-      "Microsoft.Maui.Extensions/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Extensions/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration": "6.0.1",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.200-preview.13.935": {
+      "Microsoft.Maui.Graphics/6.0.200-preview.14.1092": {
         "type": "package",
         "compile": {
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
@@ -11360,10 +11378,10 @@
           "lib/netstandard2.0/System.CodeDom.dll": {}
         }
       },
-      "System.Diagnostics.DiagnosticSource/6.0.2-mauipre.1.22102.15": {
+      "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {}
@@ -11375,7 +11393,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/6.0.2-mauipre.1.22102.15": {
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
@@ -11385,6 +11403,12 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {}
         }
       },
       "Infrastructure/1.0.0": {
@@ -11403,11 +11427,11 @@
       }
     },
     "net6.0-ios15.2/android-x64": {
-      "Microsoft.Extensions.Configuration/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
@@ -11416,10 +11440,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
@@ -11428,11 +11452,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {}
@@ -11444,7 +11468,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
@@ -11497,14 +11521,14 @@
           "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Options": "6.0.2-mauipre.1.22102.15",
-          "System.Diagnostics.DiagnosticSource": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
@@ -11513,7 +11537,7 @@
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
@@ -11525,11 +11549,11 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Options/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
@@ -11538,10 +11562,10 @@
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Primitives/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Primitives.dll": {}
@@ -11752,10 +11776,11 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Dependencies/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.200-preview.13.935"
+          "Microsoft.Maui.Graphics": "6.0.200-preview.14.1092",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
       "Microsoft.Maui.Essentials/6.0.100-preview.5.794": {
@@ -11770,16 +11795,17 @@
           "lib/net6.0-ios13.6/Microsoft.Maui.Essentials.dll": {}
         }
       },
-      "Microsoft.Maui.Extensions/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Extensions/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration": "6.0.1",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.200-preview.13.935": {
+      "Microsoft.Maui.Graphics/6.0.200-preview.14.1092": {
         "type": "package",
         "compile": {
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
@@ -11833,10 +11859,10 @@
           "lib/netstandard2.0/System.CodeDom.dll": {}
         }
       },
-      "System.Diagnostics.DiagnosticSource/6.0.2-mauipre.1.22102.15": {
+      "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {}
@@ -11848,7 +11874,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/6.0.2-mauipre.1.22102.15": {
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
@@ -11858,6 +11884,12 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {}
         }
       },
       "Infrastructure/1.0.0": {
@@ -11876,11 +11908,11 @@
       }
     },
     "net6.0-ios15.2/android-x86": {
-      "Microsoft.Extensions.Configuration/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
@@ -11889,10 +11921,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
@@ -11901,11 +11933,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {}
@@ -11917,7 +11949,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
@@ -11970,14 +12002,14 @@
           "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Options": "6.0.2-mauipre.1.22102.15",
-          "System.Diagnostics.DiagnosticSource": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
@@ -11986,7 +12018,7 @@
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
@@ -11998,11 +12030,11 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Options/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
@@ -12011,10 +12043,10 @@
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Primitives/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Primitives.dll": {}
@@ -12225,10 +12257,11 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Dependencies/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.200-preview.13.935"
+          "Microsoft.Maui.Graphics": "6.0.200-preview.14.1092",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
       "Microsoft.Maui.Essentials/6.0.100-preview.5.794": {
@@ -12243,16 +12276,17 @@
           "lib/net6.0-ios13.6/Microsoft.Maui.Essentials.dll": {}
         }
       },
-      "Microsoft.Maui.Extensions/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Extensions/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration": "6.0.1",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.200-preview.13.935": {
+      "Microsoft.Maui.Graphics/6.0.200-preview.14.1092": {
         "type": "package",
         "compile": {
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
@@ -12306,10 +12340,10 @@
           "lib/netstandard2.0/System.CodeDom.dll": {}
         }
       },
-      "System.Diagnostics.DiagnosticSource/6.0.2-mauipre.1.22102.15": {
+      "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {}
@@ -12321,7 +12355,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/6.0.2-mauipre.1.22102.15": {
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
@@ -12331,6 +12365,12 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {}
         }
       },
       "Infrastructure/1.0.0": {
@@ -12349,11 +12389,11 @@
       }
     },
     "net6.0-ios15.2/iossimulator-x64": {
-      "Microsoft.Extensions.Configuration/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
@@ -12362,10 +12402,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
@@ -12374,11 +12414,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {}
@@ -12390,7 +12430,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
@@ -12443,14 +12483,14 @@
           "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Options": "6.0.2-mauipre.1.22102.15",
-          "System.Diagnostics.DiagnosticSource": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
@@ -12459,7 +12499,7 @@
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
@@ -12471,11 +12511,11 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Options/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
@@ -12484,10 +12524,10 @@
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Primitives/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Primitives.dll": {}
@@ -12698,10 +12738,11 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Dependencies/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.200-preview.13.935"
+          "Microsoft.Maui.Graphics": "6.0.200-preview.14.1092",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
       "Microsoft.Maui.Essentials/6.0.100-preview.5.794": {
@@ -12716,16 +12757,17 @@
           "lib/net6.0-ios13.6/Microsoft.Maui.Essentials.dll": {}
         }
       },
-      "Microsoft.Maui.Extensions/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Extensions/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration": "6.0.1",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.200-preview.13.935": {
+      "Microsoft.Maui.Graphics/6.0.200-preview.14.1092": {
         "type": "package",
         "compile": {
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
@@ -12779,10 +12821,10 @@
           "lib/netstandard2.0/System.CodeDom.dll": {}
         }
       },
-      "System.Diagnostics.DiagnosticSource/6.0.2-mauipre.1.22102.15": {
+      "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {}
@@ -12794,7 +12836,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/6.0.2-mauipre.1.22102.15": {
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
@@ -12804,6 +12846,12 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {}
         }
       },
       "Infrastructure/1.0.0": {
@@ -12822,11 +12870,11 @@
       }
     },
     "net6.0-ios15.2/maccatalyst-x64": {
-      "Microsoft.Extensions.Configuration/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
@@ -12835,10 +12883,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
@@ -12847,11 +12895,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {}
@@ -12863,7 +12911,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
@@ -12916,14 +12964,14 @@
           "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Options": "6.0.2-mauipre.1.22102.15",
-          "System.Diagnostics.DiagnosticSource": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
@@ -12932,7 +12980,7 @@
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
@@ -12944,11 +12992,11 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Options/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
@@ -12957,10 +13005,10 @@
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Primitives/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Primitives.dll": {}
@@ -13171,10 +13219,11 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Dependencies/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.200-preview.13.935"
+          "Microsoft.Maui.Graphics": "6.0.200-preview.14.1092",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
       "Microsoft.Maui.Essentials/6.0.100-preview.5.794": {
@@ -13189,16 +13238,17 @@
           "lib/net6.0-ios13.6/Microsoft.Maui.Essentials.dll": {}
         }
       },
-      "Microsoft.Maui.Extensions/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Extensions/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration": "6.0.1",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.200-preview.13.935": {
+      "Microsoft.Maui.Graphics/6.0.200-preview.14.1092": {
         "type": "package",
         "compile": {
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
@@ -13252,10 +13302,10 @@
           "lib/netstandard2.0/System.CodeDom.dll": {}
         }
       },
-      "System.Diagnostics.DiagnosticSource/6.0.2-mauipre.1.22102.15": {
+      "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {}
@@ -13267,7 +13317,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/6.0.2-mauipre.1.22102.15": {
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
@@ -13277,6 +13327,12 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {}
         }
       },
       "Infrastructure/1.0.0": {
@@ -13295,11 +13351,11 @@
       }
     },
     "net6.0-maccatalyst15.2": {
-      "Microsoft.Extensions.Configuration/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
@@ -13308,10 +13364,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
@@ -13320,11 +13376,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {}
@@ -13336,7 +13392,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
@@ -13389,14 +13445,14 @@
           "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Options": "6.0.2-mauipre.1.22102.15",
-          "System.Diagnostics.DiagnosticSource": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
@@ -13405,7 +13461,7 @@
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
@@ -13417,11 +13473,11 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Options/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
@@ -13430,10 +13486,10 @@
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Primitives/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Primitives.dll": {}
@@ -13644,10 +13700,11 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Dependencies/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.200-preview.13.935"
+          "Microsoft.Maui.Graphics": "6.0.200-preview.14.1092",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
       "Microsoft.Maui.Essentials/6.0.100-preview.5.794": {
@@ -13662,16 +13719,17 @@
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Essentials.dll": {}
         }
       },
-      "Microsoft.Maui.Extensions/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Extensions/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration": "6.0.1",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.200-preview.13.935": {
+      "Microsoft.Maui.Graphics/6.0.200-preview.14.1092": {
         "type": "package",
         "compile": {
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
@@ -13725,10 +13783,10 @@
           "lib/netstandard2.0/System.CodeDom.dll": {}
         }
       },
-      "System.Diagnostics.DiagnosticSource/6.0.2-mauipre.1.22102.15": {
+      "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {}
@@ -13740,7 +13798,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/6.0.2-mauipre.1.22102.15": {
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
@@ -13750,6 +13808,12 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {}
         }
       },
       "Infrastructure/1.0.0": {
@@ -13768,11 +13832,11 @@
       }
     },
     "net6.0-maccatalyst15.2/android-arm": {
-      "Microsoft.Extensions.Configuration/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
@@ -13781,10 +13845,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
@@ -13793,11 +13857,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {}
@@ -13809,7 +13873,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
@@ -13862,14 +13926,14 @@
           "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Options": "6.0.2-mauipre.1.22102.15",
-          "System.Diagnostics.DiagnosticSource": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
@@ -13878,7 +13942,7 @@
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
@@ -13890,11 +13954,11 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Options/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
@@ -13903,10 +13967,10 @@
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Primitives/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Primitives.dll": {}
@@ -14117,10 +14181,11 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Dependencies/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.200-preview.13.935"
+          "Microsoft.Maui.Graphics": "6.0.200-preview.14.1092",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
       "Microsoft.Maui.Essentials/6.0.100-preview.5.794": {
@@ -14135,16 +14200,17 @@
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Essentials.dll": {}
         }
       },
-      "Microsoft.Maui.Extensions/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Extensions/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration": "6.0.1",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.200-preview.13.935": {
+      "Microsoft.Maui.Graphics/6.0.200-preview.14.1092": {
         "type": "package",
         "compile": {
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
@@ -14198,10 +14264,10 @@
           "lib/netstandard2.0/System.CodeDom.dll": {}
         }
       },
-      "System.Diagnostics.DiagnosticSource/6.0.2-mauipre.1.22102.15": {
+      "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {}
@@ -14213,7 +14279,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/6.0.2-mauipre.1.22102.15": {
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
@@ -14223,6 +14289,12 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {}
         }
       },
       "Infrastructure/1.0.0": {
@@ -14241,11 +14313,11 @@
       }
     },
     "net6.0-maccatalyst15.2/android-arm64": {
-      "Microsoft.Extensions.Configuration/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
@@ -14254,10 +14326,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
@@ -14266,11 +14338,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {}
@@ -14282,7 +14354,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
@@ -14335,14 +14407,14 @@
           "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Options": "6.0.2-mauipre.1.22102.15",
-          "System.Diagnostics.DiagnosticSource": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
@@ -14351,7 +14423,7 @@
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
@@ -14363,11 +14435,11 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Options/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
@@ -14376,10 +14448,10 @@
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Primitives/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Primitives.dll": {}
@@ -14590,10 +14662,11 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Dependencies/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.200-preview.13.935"
+          "Microsoft.Maui.Graphics": "6.0.200-preview.14.1092",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
       "Microsoft.Maui.Essentials/6.0.100-preview.5.794": {
@@ -14608,16 +14681,17 @@
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Essentials.dll": {}
         }
       },
-      "Microsoft.Maui.Extensions/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Extensions/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration": "6.0.1",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.200-preview.13.935": {
+      "Microsoft.Maui.Graphics/6.0.200-preview.14.1092": {
         "type": "package",
         "compile": {
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
@@ -14671,10 +14745,10 @@
           "lib/netstandard2.0/System.CodeDom.dll": {}
         }
       },
-      "System.Diagnostics.DiagnosticSource/6.0.2-mauipre.1.22102.15": {
+      "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {}
@@ -14686,7 +14760,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/6.0.2-mauipre.1.22102.15": {
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
@@ -14696,6 +14770,12 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {}
         }
       },
       "Infrastructure/1.0.0": {
@@ -14714,11 +14794,11 @@
       }
     },
     "net6.0-maccatalyst15.2/android-x64": {
-      "Microsoft.Extensions.Configuration/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
@@ -14727,10 +14807,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
@@ -14739,11 +14819,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {}
@@ -14755,7 +14835,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
@@ -14808,14 +14888,14 @@
           "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Options": "6.0.2-mauipre.1.22102.15",
-          "System.Diagnostics.DiagnosticSource": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
@@ -14824,7 +14904,7 @@
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
@@ -14836,11 +14916,11 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Options/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
@@ -14849,10 +14929,10 @@
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Primitives/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Primitives.dll": {}
@@ -15063,10 +15143,11 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Dependencies/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.200-preview.13.935"
+          "Microsoft.Maui.Graphics": "6.0.200-preview.14.1092",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
       "Microsoft.Maui.Essentials/6.0.100-preview.5.794": {
@@ -15081,16 +15162,17 @@
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Essentials.dll": {}
         }
       },
-      "Microsoft.Maui.Extensions/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Extensions/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration": "6.0.1",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.200-preview.13.935": {
+      "Microsoft.Maui.Graphics/6.0.200-preview.14.1092": {
         "type": "package",
         "compile": {
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
@@ -15144,10 +15226,10 @@
           "lib/netstandard2.0/System.CodeDom.dll": {}
         }
       },
-      "System.Diagnostics.DiagnosticSource/6.0.2-mauipre.1.22102.15": {
+      "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {}
@@ -15159,7 +15241,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/6.0.2-mauipre.1.22102.15": {
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
@@ -15169,6 +15251,12 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {}
         }
       },
       "Infrastructure/1.0.0": {
@@ -15187,11 +15275,11 @@
       }
     },
     "net6.0-maccatalyst15.2/android-x86": {
-      "Microsoft.Extensions.Configuration/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
@@ -15200,10 +15288,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
@@ -15212,11 +15300,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {}
@@ -15228,7 +15316,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
@@ -15281,14 +15369,14 @@
           "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Options": "6.0.2-mauipre.1.22102.15",
-          "System.Diagnostics.DiagnosticSource": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
@@ -15297,7 +15385,7 @@
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
@@ -15309,11 +15397,11 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Options/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
@@ -15322,10 +15410,10 @@
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Primitives/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Primitives.dll": {}
@@ -15536,10 +15624,11 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Dependencies/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.200-preview.13.935"
+          "Microsoft.Maui.Graphics": "6.0.200-preview.14.1092",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
       "Microsoft.Maui.Essentials/6.0.100-preview.5.794": {
@@ -15554,16 +15643,17 @@
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Essentials.dll": {}
         }
       },
-      "Microsoft.Maui.Extensions/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Extensions/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration": "6.0.1",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.200-preview.13.935": {
+      "Microsoft.Maui.Graphics/6.0.200-preview.14.1092": {
         "type": "package",
         "compile": {
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
@@ -15617,10 +15707,10 @@
           "lib/netstandard2.0/System.CodeDom.dll": {}
         }
       },
-      "System.Diagnostics.DiagnosticSource/6.0.2-mauipre.1.22102.15": {
+      "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {}
@@ -15632,7 +15722,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/6.0.2-mauipre.1.22102.15": {
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
@@ -15642,6 +15732,12 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {}
         }
       },
       "Infrastructure/1.0.0": {
@@ -15660,11 +15756,11 @@
       }
     },
     "net6.0-maccatalyst15.2/iossimulator-x64": {
-      "Microsoft.Extensions.Configuration/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
@@ -15673,10 +15769,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
@@ -15685,11 +15781,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {}
@@ -15701,7 +15797,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
@@ -15754,14 +15850,14 @@
           "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Options": "6.0.2-mauipre.1.22102.15",
-          "System.Diagnostics.DiagnosticSource": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
@@ -15770,7 +15866,7 @@
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
@@ -15782,11 +15878,11 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Options/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
@@ -15795,10 +15891,10 @@
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Primitives/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Primitives.dll": {}
@@ -16009,10 +16105,11 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Dependencies/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.200-preview.13.935"
+          "Microsoft.Maui.Graphics": "6.0.200-preview.14.1092",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
       "Microsoft.Maui.Essentials/6.0.100-preview.5.794": {
@@ -16027,16 +16124,17 @@
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Essentials.dll": {}
         }
       },
-      "Microsoft.Maui.Extensions/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Extensions/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration": "6.0.1",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.200-preview.13.935": {
+      "Microsoft.Maui.Graphics/6.0.200-preview.14.1092": {
         "type": "package",
         "compile": {
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
@@ -16090,10 +16188,10 @@
           "lib/netstandard2.0/System.CodeDom.dll": {}
         }
       },
-      "System.Diagnostics.DiagnosticSource/6.0.2-mauipre.1.22102.15": {
+      "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {}
@@ -16105,7 +16203,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/6.0.2-mauipre.1.22102.15": {
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
@@ -16115,6 +16213,12 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {}
         }
       },
       "Infrastructure/1.0.0": {
@@ -16133,11 +16237,11 @@
       }
     },
     "net6.0-maccatalyst15.2/maccatalyst-x64": {
-      "Microsoft.Extensions.Configuration/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
@@ -16146,10 +16250,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
@@ -16158,11 +16262,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {}
@@ -16174,7 +16278,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
@@ -16227,14 +16331,14 @@
           "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Options": "6.0.2-mauipre.1.22102.15",
-          "System.Diagnostics.DiagnosticSource": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
@@ -16243,7 +16347,7 @@
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
@@ -16255,11 +16359,11 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.Options/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Options/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
@@ -16268,10 +16372,10 @@
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/6.0.2-mauipre.1.22102.15": {
+      "Microsoft.Extensions.Primitives/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Primitives.dll": {}
@@ -16482,10 +16586,11 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Dependencies/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.200-preview.13.935"
+          "Microsoft.Maui.Graphics": "6.0.200-preview.14.1092",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
       "Microsoft.Maui.Essentials/6.0.100-preview.5.794": {
@@ -16500,16 +16605,17 @@
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Essentials.dll": {}
         }
       },
-      "Microsoft.Maui.Extensions/6.0.200-preview.13.2865": {
+      "Microsoft.Maui.Extensions/6.0.200-preview.14.5099": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging": "6.0.2-mauipre.1.22102.15",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15"
+          "Microsoft.Extensions.Configuration": "6.0.1",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.200-preview.13.935": {
+      "Microsoft.Maui.Graphics/6.0.200-preview.14.1092": {
         "type": "package",
         "compile": {
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
@@ -16563,10 +16669,10 @@
           "lib/netstandard2.0/System.CodeDom.dll": {}
         }
       },
-      "System.Diagnostics.DiagnosticSource/6.0.2-mauipre.1.22102.15": {
+      "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
           "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {}
@@ -16578,7 +16684,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/6.0.2-mauipre.1.22102.15": {
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
@@ -16588,6 +16694,12 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {}
         }
       },
       "Infrastructure/1.0.0": {
@@ -16625,10 +16737,10 @@
         "lib/net6.0-android31.0/GoogleGson.xml"
       ]
     },
-    "Microsoft.Extensions.Configuration/6.0.2-mauipre.1.22102.15": {
-      "sha512": "Rg0KWUPbIE5cgIJ3VoBj16Ac5K6sCnYb6JdYyVfrZVvLw9k8TgbrkiFMxwQWAsTnm9PtAfDqWwTrvLx/37b2Zg==",
+    "Microsoft.Extensions.Configuration/6.0.1": {
+      "sha512": "BUyFU9t+HzlSE7ri4B+AQN2BgTgHv/uM82s5ZkgU1BApyzWzIl48nDsG5wR1t0pniNuuyTBzG3qCW8152/NtSw==",
       "type": "package",
-      "path": "microsoft.extensions.configuration/6.0.2-mauipre.1.22102.15",
+      "path": "microsoft.extensions.configuration/6.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -16639,15 +16751,15 @@
         "lib/net461/Microsoft.Extensions.Configuration.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.xml",
-        "microsoft.extensions.configuration.6.0.2-mauipre.1.22102.15.nupkg.sha512",
+        "microsoft.extensions.configuration.6.0.1.nupkg.sha512",
         "microsoft.extensions.configuration.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Configuration.Abstractions/6.0.2-mauipre.1.22102.15": {
-      "sha512": "g+hdHEfm/QK4Zs59gftVQYYyfR/P7VDjCOaG2I+q6dLc2FKV/0PonAvt6X0mctCv8GluKsBXaWTgYVSSy4dpmA==",
+    "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
+      "sha512": "qWzV9o+ZRWq+pGm+1dF+R7qTgTYoXvbyowRoBxQJGfqTpqDun2eteerjRQhq5PQ/14S+lqto3Ft4gYaRyl4rdQ==",
       "type": "package",
-      "path": "microsoft.extensions.configuration.abstractions/6.0.2-mauipre.1.22102.15",
+      "path": "microsoft.extensions.configuration.abstractions/6.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -16658,15 +16770,15 @@
         "lib/net461/Microsoft.Extensions.Configuration.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
-        "microsoft.extensions.configuration.abstractions.6.0.2-mauipre.1.22102.15.nupkg.sha512",
+        "microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
         "microsoft.extensions.configuration.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection/6.0.2-mauipre.1.22102.15": {
-      "sha512": "Y4/dQr57HctkUu7B9LWCW6exU5fHaGIRN3P89rZsgjfvqaLTsRwb3o7hVAhpIDiP2K3I0dZP8fs/R+b4tDOX+w==",
+    "Microsoft.Extensions.DependencyInjection/6.0.0": {
+      "sha512": "k6PWQMuoBDGGHOQTtyois2u4AwyVcIwL2LaSLlTZQm2CYcJ1pxbt6jfAnpWmzENA/wfrYRI/X9DTLoUkE4AsLw==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection/6.0.2-mauipre.1.22102.15",
+      "path": "microsoft.extensions.dependencyinjection/6.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -16683,15 +16795,15 @@
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
-        "microsoft.extensions.dependencyinjection.6.0.2-mauipre.1.22102.15.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.2-mauipre.1.22102.15": {
-      "sha512": "oYNPt6oGPYqF4lNN4GloZ4de4pkeuON4yQO0JJ+ob6e1Ny9MnCI39uKpULD8cTYrIhZt9/hnYx5eAz/2GM/qag==",
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+      "sha512": "xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.2-mauipre.1.22102.15",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -16708,7 +16820,7 @@
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "microsoft.extensions.dependencyinjection.abstractions.6.0.2-mauipre.1.22102.15.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -16769,10 +16881,10 @@
         "microsoft.extensions.http.nuspec"
       ]
     },
-    "Microsoft.Extensions.Logging/6.0.2-mauipre.1.22102.15": {
-      "sha512": "6ZkKqP2h/qiobh+SEhuQwPYLAL99LdVUHwN/jvJN35Wxr2+eY9Ptmzhq2bXiKMXviBM+AqeQXPYyh65+aTcM4w==",
+    "Microsoft.Extensions.Logging/6.0.0": {
+      "sha512": "eIbyj40QDg1NDz0HBW0S5f3wrLVnKWnDJ/JtZ+yJDFnDj90VoPuoPmFkeaXrtu+0cKm5GRAwoDf+dBWXK0TUdg==",
       "type": "package",
-      "path": "microsoft.extensions.logging/6.0.2-mauipre.1.22102.15",
+      "path": "microsoft.extensions.logging/6.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -16785,15 +16897,15 @@
         "lib/netstandard2.0/Microsoft.Extensions.Logging.xml",
         "lib/netstandard2.1/Microsoft.Extensions.Logging.dll",
         "lib/netstandard2.1/Microsoft.Extensions.Logging.xml",
-        "microsoft.extensions.logging.6.0.2-mauipre.1.22102.15.nupkg.sha512",
+        "microsoft.extensions.logging.6.0.0.nupkg.sha512",
         "microsoft.extensions.logging.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Logging.Abstractions/6.0.2-mauipre.1.22102.15": {
-      "sha512": "GjCl1p1Np6r5XEy2LZFD/pIbBI7iC6XVhaV1kIOESmT5EqfSV/w8igaK0mwEAXmKsywfPEqEzZahlBRJNYZRjg==",
+    "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
+      "sha512": "dzB2Cgg+JmrouhjkcQGzSFjjvpwlq353i8oBQO2GWNjCXSzhbtBRUf28HSauWe7eib3wYOdb3tItdjRwAdwCSg==",
       "type": "package",
-      "path": "microsoft.extensions.logging.abstractions/6.0.2-mauipre.1.22102.15",
+      "path": "microsoft.extensions.logging.abstractions/6.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -16837,15 +16949,15 @@
         "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
-        "microsoft.extensions.logging.abstractions.6.0.2-mauipre.1.22102.15.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
         "microsoft.extensions.logging.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Options/6.0.2-mauipre.1.22102.15": {
-      "sha512": "BOa4mEpuqcD5qnyI6SvaQabcQzUWPUscISkFR6BT2Q2eCHsop9nHx09DvrFNZJ58o0Ny0/ffcdMVXvQwMGMzDA==",
+    "Microsoft.Extensions.Options/6.0.0": {
+      "sha512": "dzXN0+V1AyjOe2xcJ86Qbo233KHuLEY0njf/P2Kw8SfJU+d45HNS2ctJdnEnrWbM9Ye2eFgaC5Mj9otRMU6IsQ==",
       "type": "package",
-      "path": "microsoft.extensions.options/6.0.2-mauipre.1.22102.15",
+      "path": "microsoft.extensions.options/6.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -16858,15 +16970,15 @@
         "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
         "lib/netstandard2.1/Microsoft.Extensions.Options.dll",
         "lib/netstandard2.1/Microsoft.Extensions.Options.xml",
-        "microsoft.extensions.options.6.0.2-mauipre.1.22102.15.nupkg.sha512",
+        "microsoft.extensions.options.6.0.0.nupkg.sha512",
         "microsoft.extensions.options.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Primitives/6.0.2-mauipre.1.22102.15": {
-      "sha512": "UwHK1V4ccpDfP1rbUfNgSOf5Q/nn6B3rv1fKW5rzD7QtCm94IayO2Dnx9VgAhQUdOn+o4+/BgBDPjPYmGfnzLg==",
+    "Microsoft.Extensions.Primitives/6.0.0": {
+      "sha512": "9+PnzmQFfEFNR9J2aDTfJGGupShHjOuGw4VUv+JB044biSHrnmCIMD+mJHmb2H7YryrfBEXDurxQ47gJZdCKNQ==",
       "type": "package",
-      "path": "microsoft.extensions.primitives/6.0.2-mauipre.1.22102.15",
+      "path": "microsoft.extensions.primitives/6.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -16883,7 +16995,7 @@
         "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
-        "microsoft.extensions.primitives.6.0.2-mauipre.1.22102.15.nupkg.sha512",
+        "microsoft.extensions.primitives.6.0.0.nupkg.sha512",
         "microsoft.extensions.primitives.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -17144,14 +17256,14 @@
         "microsoft.maui.core.nuspec"
       ]
     },
-    "Microsoft.Maui.Dependencies/6.0.200-preview.13.2865": {
-      "sha512": "11vlgeUjw1xdhvCgf1M92i/JTI63xb4pCUmzVNLEgn911JPYU1/IN+iOOAis2j/x6n/BVLknDQjH87pV+rgRhw==",
+    "Microsoft.Maui.Dependencies/6.0.200-preview.14.5099": {
+      "sha512": "CBMsTh805bJTA8BJ7+d9zEhqyv6jpg1R7Aou1vRmzp1hoYRqcNDdgmHZaRjxefd3REUIdWiTLqq3azLHVKtwiQ==",
       "type": "package",
-      "path": "microsoft.maui.dependencies/6.0.200-preview.13.2865",
+      "path": "microsoft.maui.dependencies/6.0.200-preview.14.5099",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "microsoft.maui.dependencies.6.0.200-preview.13.2865.nupkg.sha512",
+        "microsoft.maui.dependencies.6.0.200-preview.14.5099.nupkg.sha512",
         "microsoft.maui.dependencies.nuspec"
       ]
     },
@@ -17184,26 +17296,26 @@
         "readme.txt"
       ]
     },
-    "Microsoft.Maui.Extensions/6.0.200-preview.13.2865": {
-      "sha512": "40yRChoxx80ZfSQKNXZzfOCHMupx1z45nsEDF+654vIuZnQ7RosTFLc1SAUSLnkm2cLmG29LB+9LOuA2Vzfq3A==",
+    "Microsoft.Maui.Extensions/6.0.200-preview.14.5099": {
+      "sha512": "0nRvIxTvdI41yHwv1ElQivljsPN3Y1DU1yLpofVqqH3xL9Tg9SDley1w09W/sZF8p+uqOed6/DpbY9RDydlDJA==",
       "type": "package",
-      "path": "microsoft.maui.extensions/6.0.200-preview.13.2865",
+      "path": "microsoft.maui.extensions/6.0.200-preview.14.5099",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "microsoft.maui.extensions.6.0.200-preview.13.2865.nupkg.sha512",
+        "microsoft.maui.extensions.6.0.200-preview.14.5099.nupkg.sha512",
         "microsoft.maui.extensions.nuspec"
       ]
     },
-    "Microsoft.Maui.Graphics/6.0.200-preview.13.935": {
-      "sha512": "rSiV/TBAX3puzIl6+z+/slqzwBbZK6+wCtALjEXolCWPznkJG16Fy5UlH1J+fSDfKt7PqCElBZGtERr16liBsg==",
+    "Microsoft.Maui.Graphics/6.0.200-preview.14.1092": {
+      "sha512": "yhFstCMzQt3Vb9yMghP8D0PrYvW24kUNIdZyp2T8w4eMRIGWcwFLghtsqdSBa7y2QiSQx2hCyjKhxinCL+HudQ==",
       "type": "package",
-      "path": "microsoft.maui.graphics/6.0.200-preview.13.935",
+      "path": "microsoft.maui.graphics/6.0.200-preview.14.1092",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/monoandroid10.0/Microsoft.Maui.Graphics.dll",
-        "lib/monoandroid10.0/Microsoft.Maui.Graphics.pdb",
+        "lib/monoandroid12.0/Microsoft.Maui.Graphics.dll",
+        "lib/monoandroid12.0/Microsoft.Maui.Graphics.pdb",
         "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll",
         "lib/net6.0-android30.0/Microsoft.Maui.Graphics.pdb",
         "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll",
@@ -17224,7 +17336,7 @@
         "lib/xamarin.ios10/Microsoft.Maui.Graphics.pdb",
         "lib/xamarin.mac20/Microsoft.Maui.Graphics.dll",
         "lib/xamarin.mac20/Microsoft.Maui.Graphics.pdb",
-        "microsoft.maui.graphics.6.0.200-preview.13.935.nupkg.sha512",
+        "microsoft.maui.graphics.6.0.200-preview.14.1092.nupkg.sha512",
         "microsoft.maui.graphics.nuspec"
       ]
     },
@@ -17338,10 +17450,10 @@
         "version.txt"
       ]
     },
-    "System.Diagnostics.DiagnosticSource/6.0.2-mauipre.1.22102.15": {
-      "sha512": "IBjxUp4ajJ6aixDKzhKnkAiw90nWtVjAyL9deS7NUYqHXFU/dQsCoML8XWr6xgj8LR5/SrjeV52I3QAVza/Tcg==",
+    "System.Diagnostics.DiagnosticSource/6.0.0": {
+      "sha512": "frQDfv0rl209cKm1lnwTgFPzNigy2EKk1BS3uAvHvlBVKe5cymGyHO+Sj+NLv5VF/AhHsqPIUUwya5oV4CHMUw==",
       "type": "package",
-      "path": "system.diagnostics.diagnosticsource/6.0.2-mauipre.1.22102.15",
+      "path": "system.diagnostics.diagnosticsource/6.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -17358,15 +17470,15 @@
         "lib/net6.0/System.Diagnostics.DiagnosticSource.xml",
         "lib/netstandard2.0/System.Diagnostics.DiagnosticSource.dll",
         "lib/netstandard2.0/System.Diagnostics.DiagnosticSource.xml",
-        "system.diagnostics.diagnosticsource.6.0.2-mauipre.1.22102.15.nupkg.sha512",
+        "system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
         "system.diagnostics.diagnosticsource.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Runtime.CompilerServices.Unsafe/6.0.2-mauipre.1.22102.15": {
-      "sha512": "504wZt1lnx5T2rQHNa/FpmLjbMe5ho03TYMnFUU1PGnqVLXl0fR6LoPXvdy8hAjSlorOqVqfeXtalsUfVia1RQ==",
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "sha512": "/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
       "type": "package",
-      "path": "system.runtime.compilerservices.unsafe/6.0.2-mauipre.1.22102.15",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -17383,8 +17495,25 @@
         "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.xml",
         "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
         "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
-        "system.runtime.compilerservices.unsafe.6.0.2-mauipre.1.22102.15.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
         "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+      "sha512": "vq+81ZqZz9oHV6iWgGXFnxHAyO5xA73nfvDNu5LwymIK294is5bRo3P063VToAbDRyyc0qq/YFRYjHmiD6Cv8Q==",
+      "type": "package",
+      "path": "system.runtime.interopservices.nfloat.internal/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "ref/net6.0/System.Runtime.InteropServices.dll",
+        "ref/net6.0/System.Runtime.InteropServices.xml",
+        "system.runtime.interopservices.nfloat.internal.6.0.1.nupkg.sha512",
+        "system.runtime.interopservices.nfloat.internal.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
@@ -18772,20 +18901,22 @@
     "net6.0-android31.0": [
       "Infrastructure >= 1.0.0",
       "Microsoft.Maui >= 6.0.100-preview.5.794",
-      "Microsoft.Maui.Dependencies >= 6.0.200-preview.13.2865",
-      "Microsoft.Maui.Extensions >= 6.0.200-preview.13.2865"
+      "Microsoft.Maui.Dependencies >= 6.0.200-preview.14.5099",
+      "Microsoft.Maui.Extensions >= 6.0.200-preview.14.5099"
     ],
     "net6.0-ios15.2": [
       "Infrastructure >= 1.0.0",
       "Microsoft.Maui >= 6.0.100-preview.5.794",
-      "Microsoft.Maui.Dependencies >= 6.0.200-preview.13.2865",
-      "Microsoft.Maui.Extensions >= 6.0.200-preview.13.2865"
+      "Microsoft.Maui.Dependencies >= 6.0.200-preview.14.5099",
+      "Microsoft.Maui.Extensions >= 6.0.200-preview.14.5099",
+      "System.Runtime.InteropServices.NFloat.Internal >= 6.0.1"
     ],
     "net6.0-maccatalyst15.2": [
       "Infrastructure >= 1.0.0",
       "Microsoft.Maui >= 6.0.100-preview.5.794",
-      "Microsoft.Maui.Dependencies >= 6.0.200-preview.13.2865",
-      "Microsoft.Maui.Extensions >= 6.0.200-preview.13.2865"
+      "Microsoft.Maui.Dependencies >= 6.0.200-preview.14.5099",
+      "Microsoft.Maui.Extensions >= 6.0.200-preview.14.5099",
+      "System.Runtime.InteropServices.NFloat.Internal >= 6.0.1"
     ]
   },
   "packageFolders": {
@@ -18796,11 +18927,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\ShowAndTells\\BlazorMaui\\MauiDemo\\MauiDemo\\MauiDemo.csproj",
+      "projectUniqueName": "C:\\Projects\\TruFlow\\src\\BlazorMaui\\MauiDemo\\MauiDemo\\MauiDemo.csproj",
       "projectName": "MauiDemo",
-      "projectPath": "C:\\Projects\\ShowAndTells\\BlazorMaui\\MauiDemo\\MauiDemo\\MauiDemo.csproj",
+      "projectPath": "C:\\Projects\\TruFlow\\src\\BlazorMaui\\MauiDemo\\MauiDemo\\MauiDemo.csproj",
       "packagesPath": "C:\\Users\\aarro\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\ShowAndTells\\BlazorMaui\\MauiDemo\\MauiDemo\\obj\\",
+      "outputPath": "C:\\Projects\\TruFlow\\src\\BlazorMaui\\MauiDemo\\MauiDemo\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
@@ -18808,7 +18939,7 @@
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Projects\\ShowAndTells\\BlazorMaui\\NuGet.Config",
+        "C:\\Projects\\TruFlow\\src\\BlazorMaui\\NuGet.Config",
         "C:\\Users\\aarro\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
@@ -18828,24 +18959,24 @@
         "net6.0-android31.0": {
           "targetAlias": "net6.0-android",
           "projectReferences": {
-            "C:\\Projects\\ShowAndTells\\BlazorMaui\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Projects\\ShowAndTells\\BlazorMaui\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Projects\\TruFlow\\src\\BlazorMaui\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Projects\\TruFlow\\src\\BlazorMaui\\Infrastructure\\Infrastructure.csproj"
             }
           }
         },
         "net6.0-ios15.2": {
           "targetAlias": "net6.0-ios",
           "projectReferences": {
-            "C:\\Projects\\ShowAndTells\\BlazorMaui\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Projects\\ShowAndTells\\BlazorMaui\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Projects\\TruFlow\\src\\BlazorMaui\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Projects\\TruFlow\\src\\BlazorMaui\\Infrastructure\\Infrastructure.csproj"
             }
           }
         },
         "net6.0-maccatalyst15.2": {
           "targetAlias": "net6.0-maccatalyst",
           "projectReferences": {
-            "C:\\Projects\\ShowAndTells\\BlazorMaui\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Projects\\ShowAndTells\\BlazorMaui\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Projects\\TruFlow\\src\\BlazorMaui\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Projects\\TruFlow\\src\\BlazorMaui\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -18866,12 +18997,12 @@
           },
           "Microsoft.Maui.Dependencies": {
             "target": "Package",
-            "version": "[6.0.200-preview.13.2865, )",
+            "version": "[6.0.200-preview.14.5099, )",
             "autoReferenced": true
           },
           "Microsoft.Maui.Extensions": {
             "target": "Package",
-            "version": "[6.0.200-preview.13.2865, )",
+            "version": "[6.0.200-preview.14.5099, )",
             "autoReferenced": true
           }
         },
@@ -18902,7 +19033,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300-preview.22154.4\\RuntimeIdentifierGraph.json"
       },
       "net6.0-ios15.2": {
         "targetAlias": "net6.0-ios",
@@ -18913,13 +19044,17 @@
           },
           "Microsoft.Maui.Dependencies": {
             "target": "Package",
-            "version": "[6.0.200-preview.13.2865, )",
+            "version": "[6.0.200-preview.14.5099, )",
             "autoReferenced": true
           },
           "Microsoft.Maui.Extensions": {
             "target": "Package",
-            "version": "[6.0.200-preview.13.2865, )",
+            "version": "[6.0.200-preview.14.5099, )",
             "autoReferenced": true
+          },
+          "System.Runtime.InteropServices.NFloat.Internal": {
+            "target": "Package",
+            "version": "[6.0.1, )"
           }
         },
         "imports": [
@@ -18949,7 +19084,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300-preview.22154.4\\RuntimeIdentifierGraph.json"
       },
       "net6.0-maccatalyst15.2": {
         "targetAlias": "net6.0-maccatalyst",
@@ -18960,13 +19095,17 @@
           },
           "Microsoft.Maui.Dependencies": {
             "target": "Package",
-            "version": "[6.0.200-preview.13.2865, )",
+            "version": "[6.0.200-preview.14.5099, )",
             "autoReferenced": true
           },
           "Microsoft.Maui.Extensions": {
             "target": "Package",
-            "version": "[6.0.200-preview.13.2865, )",
+            "version": "[6.0.200-preview.14.5099, )",
             "autoReferenced": true
+          },
+          "System.Runtime.InteropServices.NFloat.Internal": {
+            "target": "Package",
+            "version": "[6.0.1, )"
           }
         },
         "imports": [
@@ -18997,7 +19136,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300-preview.22154.4\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

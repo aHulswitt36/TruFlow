@@ -4,6 +4,7 @@
              x:Class="MauiDemoPreview12.Rivers"
              xmlns:viewmodel="clr-namespace:MauiDemoPreview12.ViewModels"
              xmlns:converts="clr-namespace:MauiDemoPreview12.Converters"
+             Title="Find your Rivers"
              BackgroundColor="{DynamicResource PrimaryColor}">
     <ScrollView Padding="{OnPlatform iOS='30,60,30,30', Android='30'}">
         <StackLayout>
@@ -20,12 +21,12 @@
             <Grid IsVisible="{Binding IsSitesEnabled}">
                 <CollectionView x:Name="StateSites" ItemsSource="{Binding StateSites}">
                     <CollectionView.ItemsLayout>
-                        <GridItemsLayout Orientation="Vertical" Span="3" VerticalItemSpacing="5" HorizontalItemSpacing="5"/>
+                        <GridItemsLayout Orientation="Vertical" Span="{OnPlatform WinUI='2', Android='1'}" VerticalItemSpacing="5" HorizontalItemSpacing="5"/>
                     </CollectionView.ItemsLayout>
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
-                            <Frame BorderColor="{DynamicResource SecondaryColor}" CornerRadius="5" Padding="1" HasShadow="True">
-                                <Grid BackgroundColor="{DynamicResource PrimaryColor}" Padding="10" RowSpacing="50" RowDefinitions="100, *" WidthRequest="225" HeightRequest="125">
+                            <Frame BorderColor="{DynamicResource SecondaryColor}" CornerRadius="3" Padding="1" HasShadow="True">
+                                <Grid BackgroundColor="{DynamicResource PrimaryColor}" Padding="10" RowSpacing="50" RowDefinitions="100,*" HeightRequest="125">
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="150"/>
                                         <ColumnDefinition Width="50"/>

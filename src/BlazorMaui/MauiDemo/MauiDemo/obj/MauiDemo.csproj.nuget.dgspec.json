@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\ShowAndTells\\BlazorMaui\\MauiDemo\\MauiDemo\\MauiDemo.csproj": {}
+    "C:\\Projects\\TruFlow\\src\\BlazorMaui\\MauiDemo\\MauiDemo\\MauiDemo.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\ShowAndTells\\BlazorMaui\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Projects\\TruFlow\\src\\BlazorMaui\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\ShowAndTells\\BlazorMaui\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Projects\\TruFlow\\src\\BlazorMaui\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Projects\\ShowAndTells\\BlazorMaui\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Projects\\TruFlow\\src\\BlazorMaui\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\aarro\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\ShowAndTells\\BlazorMaui\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Projects\\TruFlow\\src\\BlazorMaui\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Projects\\ShowAndTells\\BlazorMaui\\NuGet.Config",
+          "C:\\Projects\\TruFlow\\src\\BlazorMaui\\NuGet.Config",
           "C:\\Users\\aarro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
@@ -72,18 +72,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300-preview.22154.4\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\ShowAndTells\\BlazorMaui\\MauiDemo\\MauiDemo\\MauiDemo.csproj": {
+    "C:\\Projects\\TruFlow\\src\\BlazorMaui\\MauiDemo\\MauiDemo\\MauiDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\ShowAndTells\\BlazorMaui\\MauiDemo\\MauiDemo\\MauiDemo.csproj",
+        "projectUniqueName": "C:\\Projects\\TruFlow\\src\\BlazorMaui\\MauiDemo\\MauiDemo\\MauiDemo.csproj",
         "projectName": "MauiDemo",
-        "projectPath": "C:\\Projects\\ShowAndTells\\BlazorMaui\\MauiDemo\\MauiDemo\\MauiDemo.csproj",
+        "projectPath": "C:\\Projects\\TruFlow\\src\\BlazorMaui\\MauiDemo\\MauiDemo\\MauiDemo.csproj",
         "packagesPath": "C:\\Users\\aarro\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\ShowAndTells\\BlazorMaui\\MauiDemo\\MauiDemo\\obj\\",
+        "outputPath": "C:\\Projects\\TruFlow\\src\\BlazorMaui\\MauiDemo\\MauiDemo\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -91,7 +91,7 @@
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Projects\\ShowAndTells\\BlazorMaui\\NuGet.Config",
+          "C:\\Projects\\TruFlow\\src\\BlazorMaui\\NuGet.Config",
           "C:\\Users\\aarro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
@@ -111,24 +111,24 @@
           "net6.0-android31.0": {
             "targetAlias": "net6.0-android",
             "projectReferences": {
-              "C:\\Projects\\ShowAndTells\\BlazorMaui\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Projects\\ShowAndTells\\BlazorMaui\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Projects\\TruFlow\\src\\BlazorMaui\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Projects\\TruFlow\\src\\BlazorMaui\\Infrastructure\\Infrastructure.csproj"
               }
             }
           },
           "net6.0-ios15.2": {
             "targetAlias": "net6.0-ios",
             "projectReferences": {
-              "C:\\Projects\\ShowAndTells\\BlazorMaui\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Projects\\ShowAndTells\\BlazorMaui\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Projects\\TruFlow\\src\\BlazorMaui\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Projects\\TruFlow\\src\\BlazorMaui\\Infrastructure\\Infrastructure.csproj"
               }
             }
           },
           "net6.0-maccatalyst15.2": {
             "targetAlias": "net6.0-maccatalyst",
             "projectReferences": {
-              "C:\\Projects\\ShowAndTells\\BlazorMaui\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Projects\\ShowAndTells\\BlazorMaui\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Projects\\TruFlow\\src\\BlazorMaui\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Projects\\TruFlow\\src\\BlazorMaui\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -149,12 +149,12 @@
             },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
-              "version": "[6.0.200-preview.13.2865, )",
+              "version": "[6.0.200-preview.14.5099, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Extensions": {
               "target": "Package",
-              "version": "[6.0.200-preview.13.2865, )",
+              "version": "[6.0.200-preview.14.5099, )",
               "autoReferenced": true
             }
           },
@@ -185,7 +185,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300-preview.22154.4\\RuntimeIdentifierGraph.json"
         },
         "net6.0-ios15.2": {
           "targetAlias": "net6.0-ios",
@@ -196,13 +196,17 @@
             },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
-              "version": "[6.0.200-preview.13.2865, )",
+              "version": "[6.0.200-preview.14.5099, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Extensions": {
               "target": "Package",
-              "version": "[6.0.200-preview.13.2865, )",
+              "version": "[6.0.200-preview.14.5099, )",
               "autoReferenced": true
+            },
+            "System.Runtime.InteropServices.NFloat.Internal": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             }
           },
           "imports": [
@@ -232,7 +236,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300-preview.22154.4\\RuntimeIdentifierGraph.json"
         },
         "net6.0-maccatalyst15.2": {
           "targetAlias": "net6.0-maccatalyst",
@@ -243,13 +247,17 @@
             },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
-              "version": "[6.0.200-preview.13.2865, )",
+              "version": "[6.0.200-preview.14.5099, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Extensions": {
               "target": "Package",
-              "version": "[6.0.200-preview.13.2865, )",
+              "version": "[6.0.200-preview.14.5099, )",
               "autoReferenced": true
+            },
+            "System.Runtime.InteropServices.NFloat.Internal": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             }
           },
           "imports": [
@@ -280,7 +288,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300-preview.22154.4\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

@@ -152,6 +152,18 @@
         "net6.0-android31.0": {
           "targetAlias": "net6.0-android",
           "dependencies": {
+            "Microsoft.AppCenter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Microsoft.AppCenter.Analytics": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Microsoft.AppCenter.Crashes": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[6.0.2-mauipre.1.22102.15, )"
@@ -221,6 +233,18 @@
         "net6.0-ios15.2": {
           "targetAlias": "net6.0-ios",
           "dependencies": {
+            "Microsoft.AppCenter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Microsoft.AppCenter.Analytics": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Microsoft.AppCenter.Crashes": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[6.0.2-mauipre.1.22102.15, )"
@@ -276,6 +300,18 @@
         "net6.0-maccatalyst15.2": {
           "targetAlias": "net6.0-maccatalyst",
           "dependencies": {
+            "Microsoft.AppCenter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Microsoft.AppCenter.Analytics": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Microsoft.AppCenter.Crashes": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[6.0.2-mauipre.1.22102.15, )"
@@ -332,6 +368,18 @@
         "net6.0-windows10.0.19041": {
           "targetAlias": "net6.0-windows10.0.19041",
           "dependencies": {
+            "Microsoft.AppCenter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Microsoft.AppCenter.Analytics": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Microsoft.AppCenter.Crashes": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[6.0.2-mauipre.1.22102.15, )"
