@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TruFlow.Views.River"
+             Title="{Binding Site.RiverName}"
+             BackgroundColor="{DynamicResource PrimaryColor}">
+    <ScrollView Padding="{OnPlatform iOS='30,60,30,30', Android='30'}">
+        <StackLayout>
+            <Grid IsVisible="{Binding IsSiteDataLoaded}">
+                <CollectionView x:Name="SiteInfo" ItemsSource="{Binding RiverData}">
+                    <CollectionView.ItemsLayout>
+                        <GridItemsLayout Orientation="Vertical" Span="3" VerticalItemSpacing="5" HorizontalItemSpacing="5"/>
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame BorderColor="{DynamicResource SecondaryColor}" CornerRadius="5" Padding="1" HasShadow="True">
+                                <Grid BackgroundColor="{DynamicResource PrimaryColor}" Padding="10" RowSpacing="50" RowDefinitions="100, *" WidthRequest="225" HeightRequest="125">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="150"/>
+                                        <ColumnDefinition Width="50"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Label TextColor="{DynamicResource SecondaryColor}" Text="{Binding Variable.VariableName}" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Start" FontAttributes="Bold"/>
+                                    <Label TextColor="{DynamicResource SecondaryColor}" Grid.Column="0" Text="{Binding Values[0].Value[0].Value}" HorizontalOptions="Start" VerticalOptions="End" FontSize="45"/>
+                                    <Label TextColor="{DynamicResource SecondaryColor}" Grid.Column="1" Text="{Binding Variable.Unit.UnitCode}"  HorizontalOptions="Start" VerticalOptions="End"/>
+                                </Grid>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </Grid>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
