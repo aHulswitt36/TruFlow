@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
@@ -21,7 +21,7 @@ namespace XamarinForms.ViewModel
             return Task.FromResult(false);
         }
 
-        public virtual Task OnNavigatingTo(object? parameter)
+        public virtual Task OnNavigatingTo(object parameter)
             => Task.CompletedTask;
         public virtual Task OnNavigatedFrom(bool isForwardNavigation)
             => Task.CompletedTask;

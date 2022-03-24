@@ -64,7 +64,7 @@ namespace XamarinForms.ViewModel
 
         #region Navigation Events
 
-        public override async Task OnNavigatingTo(object? parameter)
+        public override async Task OnNavigatingTo(object parameter)
         {
             if (parameter != null)
                 _site = parameter as UsgsSite;

@@ -1,4 +1,4 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -28,7 +28,7 @@ namespace XamarinForms.Services
         {
             get
             {
-                INavigation? navigation = Application.Current?.MainPage?.Navigation;
+                INavigation navigation = Application.Current?.MainPage?.Navigation;
                 if (navigation != null)
                     return navigation;
                 else
@@ -64,7 +64,7 @@ namespace XamarinForms.Services
             throw new InvalidOperationException("No pages to navigate back to!");
         }
 
-        private async Task NavigateTo<T>(object? parameter = null) where T : Page
+        private async Task NavigateTo<T>(object parameter = null) where T : Page
         {
             var toPage = ResolvePage<T>();
 
@@ -127,7 +127,7 @@ namespace XamarinForms.Services
             return page;
         }
 
-        private BaseViewModel? GetPageViewModelBase(Page? p) => p?.BindingContext as BaseViewModel;
+        private BaseViewModel GetPageViewModelBase(Page p) => p?.BindingContext as BaseViewModel;
     }
 
     //public class NavigationService
