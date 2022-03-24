@@ -1,0 +1,10 @@
+C:\Projects\ShowAndTells\XamarinForms\Infrastructure\bin\Debug\netstandard2.1\Infrastructure.deps.json
+C:\Projects\ShowAndTells\XamarinForms\Infrastructure\bin\Debug\netstandard2.1\Infrastructure.dll
+C:\Projects\ShowAndTells\XamarinForms\Infrastructure\bin\Debug\netstandard2.1\Infrastructure.pdb
+C:\Projects\ShowAndTells\XamarinForms\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.csproj.AssemblyReference.cache
+C:\Projects\ShowAndTells\XamarinForms\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\ShowAndTells\XamarinForms\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.AssemblyInfoInputs.cache
+C:\Projects\ShowAndTells\XamarinForms\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.AssemblyInfo.cs
+C:\Projects\ShowAndTells\XamarinForms\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Projects\ShowAndTells\XamarinForms\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.dll
+C:\Projects\ShowAndTells\XamarinForms\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.pdb

@@ -9,7 +9,6 @@ namespace MauiDemoPreview12
             BindingContext = vm;
             InitializeComponent();
 
-            NavigationPage.SetHasNavigationBar(this, false);
         }
     }
 }
