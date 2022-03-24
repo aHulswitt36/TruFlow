@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiDemo.Rivers"
+             BackgroundColor="{DynamicResource PageBackgroundColor}">
+    <ScrollView Padding="{OnPlatform iOS='30,60,30,30', Android='30'}"  BackgroundColor="Aqua">
+        <StackLayout BackgroundColor="Yellow">
+            <!--<GridLayout RowSpacing="25" RowDefinitions="Auto,Auto,Auto,Auto,*">-->
+                <Picker
+                    x:Name="ddlState"
+                    Title="Select a State"
+                    ItemsSource="{Binding States}"
+                    ItemDisplayBinding="{Binding Name}"
+                    SelectedItem="{Binding SelectedState}">
+                </Picker>
+            <!--</GridLayout>-->
+
+            <!--<GridLayout BackgroundColor="Green" RowSpacing="25" IsVisible="{Binding IsSitesEnabled}">
+                <GridLayout.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </GridLayout.RowDefinitions>-->
+                <Picker
+                    x:Name="ddlSites"
+                    Title="Select a Site"
+                    ItemsSource="{Binding StateSites}"
+                    ItemDisplayBinding="{Binding Name}"
+                    SelectedItem="{Binding SelectedSite}"
+                    IsVisible="{Binding IsSitesEnabled}">
+                </Picker>
+            <!--</GridLayout>-->
+            <!--<GridLayout BackgroundColor="Azure" RowSpacing="25" RowDefinitions="Auto,Auto,Auto,Auto,*" IsVisible="{Binding IsSiteDataLoaded}">-->
+                <ListView Margin="0,20,0,0" ItemsSource="{Binding RiverData}" IsVisible="{Binding IsSiteDataLoaded}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid>
+                                    <Label Text="{Binding Variable.VariableName}"/>
+                                    <Label Grid.Column="1" Text="{Binding Variable.Unit.UnitCode}"/>
+                                    <Label Grid.Column="2" Text="{Binding Values[0].Value[0].Value}"/>
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            <!--</GridLayout>-->
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
