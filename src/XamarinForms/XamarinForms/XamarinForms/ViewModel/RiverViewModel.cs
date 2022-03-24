@@ -1,10 +1,11 @@
-﻿using Infrastructure;
-using Infrastructure.Models;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using XamarinForms.Models;
+using XamarinForms.Services;
 
 namespace XamarinForms.ViewModel
 {

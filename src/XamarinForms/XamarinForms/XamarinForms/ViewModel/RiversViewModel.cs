@@ -1,6 +1,4 @@
-﻿
-using Infrastructure;
-using Infrastructure.Models;
+
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -9,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms;
+using XamarinForms.Models;
 using XamarinForms.Services;
 using XamarinForms.Views;
 

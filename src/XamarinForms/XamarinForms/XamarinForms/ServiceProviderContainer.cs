@@ -1,6 +1,5 @@
-﻿
-using Infrastructure;
-using Infrastructure.Settings;
+
+
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
 using System;
@@ -10,6 +9,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using XamarinForms.Services;
+using XamarinForms.Settings;
 using XamarinForms.ViewModel;
 using XamarinForms.Views;
 
@@ -35,6 +35,12 @@ namespace XamarinForms
 
             services.AddSingleton<INavigationService, NavigationService>();
 
+            return services;
+        }
+
+        public static IServiceCollection AddComponentLibrary(this IServiceCollection services, string baseUri)
+        {
+            services.AddHttpClient<IUsgsService, UsgsService>(httpClient => httpClient.BaseAddress = new Uri(baseUri));
             return services;
         }
     }
