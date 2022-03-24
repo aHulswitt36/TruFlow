@@ -1,8 +1,0 @@
-C:\Projects\ShowAndTells\BlazorMaui\MauiBlazor\MauiBlazor.WinUI\obj\Debug\net6.0-windows10.0.19041\MauiBlazor.WinUI.csproj.AssemblyReference.cache
-C:\Projects\ShowAndTells\BlazorMaui\MauiBlazor\MauiBlazor.WinUI\obj\Debug\net6.0-windows10.0.19041\Windows\App.g.i.cs
-C:\Projects\ShowAndTells\BlazorMaui\MauiBlazor\MauiBlazor.WinUI\obj\Debug\net6.0-windows10.0.19041\Windows\App.g.cs
-C:\Projects\ShowAndTells\BlazorMaui\MauiBlazor\MauiBlazor.WinUI\obj\Debug\net6.0-windows10.0.19041\XamlTypeInfo.g.cs
-C:\Projects\ShowAndTells\BlazorMaui\MauiBlazor\MauiBlazor.WinUI\obj\Debug\net6.0-windows10.0.19041\Windows\App.xaml
-C:\Projects\ShowAndTells\BlazorMaui\MauiBlazor\MauiBlazor.WinUI\obj\Debug\net6.0-windows10.0.19041\Windows\App.xbf
-C:\Projects\ShowAndTells\BlazorMaui\MauiBlazor\MauiBlazor.WinUI\obj\Debug\net6.0-windows10.0.19041\XamlSaveStateFile.xml
-C:\Projects\ShowAndTells\BlazorMaui\MauiBlazor\MauiBlazor.WinUI\obj\Debug\net6.0-windows10.0.19041\reunion.merged.g.manifest
