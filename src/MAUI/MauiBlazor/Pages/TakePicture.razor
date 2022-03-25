@@ -1,0 +1,14 @@
+@page "/takePic"
+
+<h3>Lets Take a picture</h3>
+
+@*<video id="LOCAL_VIDEO_ID" autoplay height="800" width="800"></video>
+<input id="LABEL_ID" value="">*@
+
+
+<button class="btn btn-primary" @onclick="CapturePicture">Take Picture</button>
+
+@if(_photoPath != null)
+{
+    <img src="@_photoPath"/>
+}
