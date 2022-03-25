@@ -55,7 +55,7 @@ namespace MauiDemoPreview12
             builder.ConfigureLifecycleEvents(lifecycle => {
 #if ANDROID
                 lifecycle.AddAndroid(d => 
-                    d.OnBackPressed(a => LogEvent("fuck"))
+                    d.OnBackPressed(a => LogEvent("test"))
                 );
 #endif
                 static bool LogEvent(string eventName, string type = null)
