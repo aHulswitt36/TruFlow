@@ -8,6 +8,11 @@
              BackgroundColor="{DynamicResource PrimaryColor}">
     <ScrollView Padding="{OnPlatform iOS='30,60,30,30', Android='30'}">
         <StackLayout>
+            <Grid>
+                <Button Text="Capture photo" Command="{Binding CapturePhotoCommand}" BackgroundColor="Gray"  WidthRequest="150"/>
+                <Image Source="{Binding PhotoPath}" IsVisible="{Binding ShowPhoto}" HeightRequest="300"/>
+            </Grid>
+            
             <Grid RowSpacing="25" RowDefinitions="Auto,Auto,Auto,Auto,*">
                 <Picker
                         x:Name="ddlState"

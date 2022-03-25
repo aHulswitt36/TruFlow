@@ -13,27 +13,11 @@ public class RiverViewModel : BaseViewModel
     private UsgsSite _site;
     private readonly IUsgsService _usgsService;
 
-    public ICommand CapturePhotoCommand { get; }
-    private string _photoPath;
-    bool _showPhoto;
-
-    public bool ShowPhoto
-    {
-        get => _showPhoto;
-        set {
-            _showPhoto = value;
-            OnPropertyChanged("ShowPhoto");
-        }
-    }
-
-    public string PhotoPath { get { return _photoPath; } set { if(value != _photoPath) _photoPath = value; OnPropertyChanged("PhotoPath"); } }
-        
+      
     public RiverViewModel(IUsgsService usgsService)
     {
         _usgsService = usgsService;
         IsSiteDataLoaded = false;
-
-        CapturePhotoCommand = new Command(TakePicture, () => MediaPicker.IsCaptureSupported);
     }
 
     public UsgsSite Site
@@ -108,41 +92,5 @@ public class RiverViewModel : BaseViewModel
         IsSiteDataLoaded = true;
     }
 
-    private async void TakePicture()
-    {
-        try
-        {
-            var photo = await MediaPicker.CapturePhotoAsync();
-
-            await LoadPhotoAsync(photo);
-
-            Console.WriteLine($"CapturePhotoAsync COMPLETED: {PhotoPath}");
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"CapturePhotoAsync THREW: {ex.Message}");
-        }
-    }
-
-    async Task LoadPhotoAsync(FileResult photo)
-    {
-        // canceled
-        if (photo == null)
-        {
-            PhotoPath = null;
-            return;
-        }
-
-        // save the file into local storage
-        var newFile = Path.Combine(FileSystem.CacheDirectory, photo.FileName);
-        using (var stream = await photo.OpenReadAsync())
-        using (var newStream = File.OpenWrite(newFile))
-        {
-            await stream.CopyToAsync(newStream);
-        }
-
-        PhotoPath = newFile;
-        ShowPhoto = true;
-    }
 }
 

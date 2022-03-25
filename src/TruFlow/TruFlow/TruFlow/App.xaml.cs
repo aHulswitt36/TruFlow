@@ -22,8 +22,7 @@ namespace TruFlow
 
         protected override void OnStart()
         {
-            AppCenter.Start("android=a7075d2c-ea68-4e4a-8466-eccd83b7f32f;" +
-                  "ios=2b675344-cbd0-4833-8d76-0d0f1fee3411;",
+            AppCenter.Start("android=75e58358-1253-445b-a408-34819fe867a4;",
                   typeof(Analytics), typeof(Crashes));
         }
 

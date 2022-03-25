@@ -29,10 +29,6 @@
                     </CollectionView.ItemTemplate>
                 </CollectionView>
             </Grid>
-
-
-            <Button Text="Capture photo" Command="{Binding CapturePhotoCommand}" />
-            <Image Source="{Binding PhotoPath}" IsVisible="{Binding ShowPhoto}" HeightRequest="300"/>
         </StackLayout>
     </ScrollView>
 </ContentPage>
